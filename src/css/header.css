@@ -1,5 +1,6 @@
-/* footer styles for tablet */
-footer {
+/* header styles for descktop */
+
+header {
   padding: 20px;
 
   font-size: 1.2em;
@@ -8,5 +9,5 @@ footer {
   text-transform: uppercase;
   color: white;
 
-  background: red;
+  background: lightblue;
 }
