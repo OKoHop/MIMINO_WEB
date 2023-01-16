@@ -1,4 +1,4 @@
-/* footer styles */
+/* footer styles for mobile */
 footer {
   padding: 20px;
 
@@ -8,5 +8,5 @@ footer {
   text-transform: uppercase;
   color: white;
 
-  background: lightgreen;
+  background: blueviolet;
 }

@@ -1,0 +1,13 @@
+/**
+  |============================
+  | include css partials with
+  | default @import url()
+  |============================
+*/
+
+/* mobile */
+@import url('./header.css');
+@import url('./footer.css');
+
+/* utils */
+@import url('../root.css');
