@@ -1,0 +1,68 @@
+<div class="backdrop">
+      <div class="modal">
+        <button type="button" class="btn-close">
+          X
+          <svg width="28px" height="28px">
+            <use href=""></use>
+          </svg>
+        </button>
+
+        <form class="form">
+          <h2 class="form-title">BOOK A TABLE</h2>
+
+          <div class="form-field">
+            <div class="input-wrap">
+              <input
+                type="text"
+                class="form-input"
+                name="name"
+                id="name1"
+                placeholder="Your name"
+								pattern="^[a-zA-Z]+$"
+								required
+              />
+            </div>
+            <label for="name1">Who should book a table for?</label>
+          </div>
+
+          <label>
+            <select name="people" id="people">
+              <option value="">number of people</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+            </select>
+          </label>
+
+          <div class="form-field">
+            <div class="input-wrap">
+              <input
+                type="tel"
+                class="form-input"
+                name="phone"
+                id="tel1"
+                placeholder="+38 ()"
+								pattern="^\+38[0-9]{10}$"
+								required
+              />
+            </div>
+            <label for="tel1">Phone number</label>
+          </div>
+
+          <div class="form-field">
+            <div class="input-wrap">
+              <select name="day" id="day-select1">
+                <option value="Today">Today</option>
+                <option value="Tomorrow">Tomorrow</option>
+              </select>
+            </div>
+            <label for="day-select1">What date to book?</label>
+          </div>
+
+          <div class="form-btn">
+            <button class="" type="submit">MAKE A RESERVATION</button>
+          </div>
+        </form>
+      </div>
+    </div>
