@@ -1,0 +1,78 @@
+<div class="backdrop">
+  <div class="modal">
+    <button type="button" class="btn-close">
+      X
+      <svg width="28px" height="28px">
+        <use href=""></use>
+      </svg>
+    </button>
+
+    <h2 class="form-title">BOOK A ROOM</h2>
+
+    <form class="form">
+      <div class="form-field">
+        <div class="input-wrap">
+          <input
+            type="text"
+            class="form-input"
+            name="name"
+            id="name2"
+            placeholder="Your name"
+            pattern="^[a-zA-Z]+$"
+            required
+          />
+        </div>
+        <label for="name2">Who should book a room for?</label>
+      </div>
+
+      <div class="form-field">
+        <div class="input-wrap">
+          <input
+            type="tel"
+            class="form-input"
+            name="phone"
+            id="tel2"
+            placeholder="+38 ()"
+            pattern="^\+38[0-9]{10}$"
+            required
+          />
+        </div>
+        <label for="tel2">Phone number</label>
+      </div>
+
+      <div class="form-field">
+        <div class="input-wrap">
+          <select name="day" id="day-select2">
+            <option value="Today">Today</option>
+            <option value="Tomorrow">Tomorrow</option>
+          </select>
+        </div>
+        <label for="day-select2">Check-in date</label>
+      </div>
+
+      <div class="form-field">
+        <div class="input-wrap">
+          <select name="date" id="date">
+            <option value="">25.04.2023</option>
+          </select>
+        </div>
+        <label for="date">Check-out date</label>
+      </div>
+
+      <div class="form-field">
+        <div class="input-wrap">
+          <select name="number" id="category">
+            <option value="Double">Double suite</option>
+            <option value="Triple">Triple room</option>
+            <option value="Four-seater">Four-seater room</option>
+          </select>
+        </div>
+        <label for="category">Number category</label>
+      </div>
+
+      <div class="form-btn">
+        <button class="" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>

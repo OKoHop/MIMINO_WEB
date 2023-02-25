@@ -1,0 +1,46 @@
+<div class="backdrop">
+  <div class="modal">
+    <button type="button" class="btn-close">
+      X
+      <svg width="28px" height="28px">
+        <use href=""></use>
+      </svg>
+    </button>
+
+    <h2 class="form-title">PRICES PER ROOM</h2>
+
+    <h3 class="form-subtitle">Double suite</h3>
+
+    <form class="form">
+      <div class="form-field">
+        <div class="input-wrap">
+          <select name="nights" id="nights">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+          </select>
+        </div>
+        <label for="nights">Number of nights</label>
+      </div>
+
+      <div class="form-field">
+        <div class="input-wrap">
+          <input
+            type="text"
+            name="price"
+            id="price"
+            placeholder="1000"
+            pattern="[0-9]{4,}"
+            required
+          />
+        </div>
+        <label for="price">UAH</label>
+      </div>
+
+      <div class="form-btn">
+        <button class="" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+</div>
