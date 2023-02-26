@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
-  <link rel="stylesheet" href="/project-team-9/assets/main-aa001372.css">
+  <link rel="stylesheet" href="/project-team-9/assets/main-21f60b62.css">
 </head>
 
 <body>
@@ -567,130 +567,146 @@
 </footer>
   
   <div class="backdrop">
-  <div class="modal">
-    <button type="button" class="btn-close">
-      X
-      <svg width="28px" height="28px">
-        <use href=""></use>
-      </svg>
-    </button>
+        <div class="modal">
+          <button type="button" class="btn-close">
+            <svg width="32px" height="32px">
+              <use href="/project-team-9/assets/icon-sprite-1de473b3.svg#icon-cross"></use>
+            </svg>
+          </button>
 
-    <h2 class="form-title">PRICES PER ROOM</h2>
+          <h2 class="form-title">PRICES PER <span class="part">ROOM</span></h2>
 
-    <h3 class="form-subtitle">Double suite</h3>
+          <h3 class="form-subtitle">Double suite</h3>
 
-    <form class="form">
-      <div class="form-field">
-        <div class="input-wrap">
-          <select name="nights" id="nights">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-          </select>
+          <form class="form">
+            <div class="form-wrap">
+              <div class="form-field">
+                <div class="select-wrap">
+                  <select class="form-input" name="nights" id="nights">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <label for="nights">Number of nights</label>
+              </div>
+
+              <div class="form-field check-in-date">
+                <div class="select-wrap">
+                  <select class="form-input" name="date" id="date">
+                    <option value="">25/04/2023</option>
+                  </select>
+                </div>
+                <label for="date">Check-in date</label>
+              </div>
+
+              <div class="form-field prices-per-night">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    class="form-input"
+                    name="price"
+                    id="price"
+                    placeholder="1000"
+                    pattern="[0-9]{4,}"
+                    required
+                  />
+                </div>
+                <label for="price">UAH</label>
+              </div>
+            </div>
+
+            <div class="form-btn">
+              <button class="btn white mod" type="submit">
+                MAKE A RESERVATION
+              </button>
+            </div>
+          </form>
         </div>
-        <label for="nights">Number of nights</label>
       </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="price"
-            id="price"
-            placeholder="1000"
-            pattern="[0-9]{4,}"
-            required
-          />
-        </div>
-        <label for="price">UAH</label>
-      </div>
-
-      <div class="form-btn">
-        <button class="" type="submit">MAKE A RESERVATION</button>
-      </div>
-    </form>
-  </div>
-</div>
 
   <div class="backdrop">
-  <div class="modal">
-    <button type="button" class="btn-close">
-      X
-      <svg width="28px" height="28px">
-        <use href=""></use>
-      </svg>
-    </button>
+        <div class="modal">
+          <button type="button" class="btn-close">
+            <svg width="32px" height="32px">
+              <use href="/project-team-9/assets/icon-sprite-1de473b3.svg#icon-cross"></use>
+            </svg>
+          </button>
 
-    <h2 class="form-title">BOOK A ROOM</h2>
+          <h2 class="form-title">BOOK <span class="part">A ROOM</span></h2>
 
-    <form class="form">
-      <div class="form-field">
-        <div class="input-wrap">
-          <input
-            type="text"
-            class="form-input"
-            name="name"
-            id="name2"
-            placeholder="Your name"
-            pattern="^[a-zA-Z]+$"
-            required
-          />
+          <form class="form">
+            <div class="form-wrap">
+              <div class="form-field">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    class="form-input"
+                    name="name"
+                    id="name2"
+                    placeholder="Your name"
+                    pattern="^[a-zA-Z]+$"
+                    required
+                  />
+                </div>
+                <label for="name2">Who should book a room for?</label>
+              </div>
+
+              <div class="form-field">
+                <div class="input-wrap">
+                  <input
+                    type="tel"
+                    class="form-input"
+                    name="phone"
+                    id="tel2"
+                    placeholder="+38 ()"
+                    pattern="^\+38[0-9]{10}$"
+                    required
+                  />
+                </div>
+                <label for="tel2">Phone number</label>
+              </div>
+
+              <div class="form-field">
+                <div class="select-wrap">
+                  <select class="form-input" name="day" id="day-select2">
+                    <option value="Today">Today</option>
+                    <option value="Tomorrow">Tomorrow</option>
+                  </select>
+                </div>
+                <label for="day-select2">Check-in date</label>
+              </div>
+
+              <div class="form-field">
+                <div class="select-wrap">
+                  <select class="form-input" name="date" id="date">
+                    <option value="">25/04/2023</option>
+                  </select>
+                </div>
+                <label for="date">Check-out date</label>
+              </div>
+
+              <div class="form-field">
+                <div class="select-wrap">
+                  <select class="form-input" name="number" id="category">
+                    <option value="Double">Double suite</option>
+                    <option value="Triple">Triple room</option>
+                    <option value="Four-seater">Four-seater room</option>
+                  </select>
+                </div>
+                <label for="category">Number category</label>
+              </div>
+            </div>
+
+            <div class="form-btn">
+              <button class="btn white mod" type="submit">
+                MAKE A RESERVATION
+              </button>
+            </div>
+          </form>
         </div>
-        <label for="name2">Who should book a room for?</label>
       </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <input
-            type="tel"
-            class="form-input"
-            name="phone"
-            id="tel2"
-            placeholder="+38 ()"
-            pattern="^\+38[0-9]{10}$"
-            required
-          />
-        </div>
-        <label for="tel2">Phone number</label>
-      </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <select name="day" id="day-select2">
-            <option value="Today">Today</option>
-            <option value="Tomorrow">Tomorrow</option>
-          </select>
-        </div>
-        <label for="day-select2">Check-in date</label>
-      </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <select name="date" id="date">
-            <option value="">25.04.2023</option>
-          </select>
-        </div>
-        <label for="date">Check-out date</label>
-      </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <select name="number" id="category">
-            <option value="Double">Double suite</option>
-            <option value="Triple">Triple room</option>
-            <option value="Four-seater">Four-seater room</option>
-          </select>
-        </div>
-        <label for="category">Number category</label>
-      </div>
-
-      <div class="form-btn">
-        <button class="" type="submit">MAKE A RESERVATION</button>
-      </div>
-    </form>
-  </div>
-</div>
 
 </body>
 
