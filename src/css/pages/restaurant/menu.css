@@ -115,13 +115,13 @@ border: transparent;
 
 .menu-pre-left,
 .menu-next-icons {
-fill:rgba(247, 247, 247, 0.3);
+stroke:rgba(247, 247, 247, 0.3);
 transform: matrix(1, 0, 0, -1, 0, 0);
 }
 
 .menu-pre-left,
 .menu-next-icons:is(:hover,:focus) {
-fill: var(--text-color);
+stroke: var(--text-color);
 }
 
 .menu-btn{
