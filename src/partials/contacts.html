@@ -2,12 +2,26 @@
     <div class="container">
         <h2 class="title titele-contacts">Location</h2>
         <div class="map-wrapper">
-            <img 
+            <picture>
+                <source
                 srcset=""
+                media="(min-width: 1440px)"
+                />
+                <source
+                srcset=""
+                media="(min-width: 768px)"
+                />
+                <source
+                srcset=""
+                media="(min-width: 375px)"
+                />
+                <img
+                class="contacts-map-img" 
                 src="" 
                 alt="map"
                 width="335px"
                 height="384px">
+            </picture>
         </div>
         <div class="contact-info-wrapper">
             <address class="address">
