@@ -1,0 +1,141 @@
+.menu-rest {
+background-color: var(--brand-color);
+}
+
+.container {
+min-width: 375px;
+padding: 0;
+}
+    
+.menu-rest-title {
+font-weight: 700;
+font-size: 32px;
+line-height: 1.25;
+text-transform: uppercase;
+color: var(--text-color);
+width: 301px;
+padding-top: 40px;
+padding-bottom: 36px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.menu-rest-suptitle {
+font-style: italic;
+font-weight: 700;
+font-size: var(--basic-font-size);
+line-height: var(--basic-lineheight);
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: var(--text-color);;
+}
+
+.menu-rest-hot-meals {
+width: 335px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.menu-rest-suptitle {
+margin-bottom: 32px;
+}
+
+.menu-rest-list{
+margin-bottom: 38px;
+}
+.menu-rest-item {
+}
+
+.menu-rest-item:not(:first-child) {
+margin-top: 14px;
+}
+
+.menu-rest-item:after {
+display: block;
+content:'';
+width: 335px;
+height: 1px;
+background-color: rgba(255, 255, 255, 0.5);
+}
+
+.menu-rest-wrap {
+display: flex;
+margin-bottom: 8px;
+justify-content: space-between;
+}
+
+.sub-menu-rest-wrap {
+margin-bottom: 14px;
+}
+ 
+.menu-description-name {
+display: flex;
+color: var(--text-color);
+}
+
+.menu-description-name:before {
+content:'•';
+margin-right: 10px;
+margin-left: 10px;
+border-radius: 50%;
+color: var(--text-color);
+}
+
+.menu-description-wight {
+font-size: 12px;
+line-height: var(--second-lineheight);
+color: var(--backgrond-color);
+}
+
+.menu-description-composition {
+width: 211px;
+font-size: 10px;
+line-height: 1.4;
+letter-spacing: 0.18em;
+color: rgba(216, 215, 215, 0.5);
+}
+
+.menu-description-price {
+font-weight: 700;
+line-height:var(--basic-lineheight);
+color: var(--text-color);
+}
+
+.btn-r-l {
+display: flex;
+justify-content: center;
+margin-bottom: 40px; 
+}
+
+.menu-pre-btn,
+.menu-next-btn {
+background-color: transparent;
+border: transparent;
+}
+
+.menu-pre-left,
+.menu-next-icons {
+fill:rgba(247, 247, 247, 0.3);
+transform: matrix(1, 0, 0, -1, 0, 0);
+}
+
+.menu-pre-left,
+.menu-next-icons:is(:hover,:focus) {
+fill: var(--text-color);
+}
+
+.menu-btn{
+margin-right: auto;
+margin-left: auto;
+margin-bottom: 64px;
+}
+
+.menu-btn-wrap {
+display: flex;
+justify-content: center;
+margin-right: auto;
+margin-left: auto;
+}
+
+@media screen and (min-width:375px) {}
+
