@@ -1,12 +1,37 @@
 .header {
   padding: 20px 0;
+  background-color: #FFFFFF;
+  border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
+.header .container {
+  display: flex;
+  align-items: center;
+}
+
+.mobile-menu-btn {
+  position: absolute;
+  border: none;
+  background-color: #ffffff;
+  padding: 8px 4px;
+  margin-left: auto;
+}
+
+.icon-menu {
+  stroke: var(--brand-color);
+  width: 24px;
+  height: 16px;
+}
+
+.nav {
+  width: 100%;
+}
+
+.nav-item {
 }
 
 .nav-list {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 40px;
+  display: none;
 }
 
 .nav-link {
@@ -19,3 +44,66 @@
 .nav-link:focus {
   color: #747bff;
 }
+
+.header-link {
+}
+.link {
+}
+
+.logo-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-mimino {
+font-family: var(--basic-font-family);
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.57;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--brand-color);
+}
+
+.logo-about {
+font-family: var(--basic-font-family);
+font-style: normal;
+font-weight: 400;
+font-size: 6px;
+line-height: 1.33;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: var(--brand-color);
+}
+
+.social-link {
+  display: none;
+}
+
+.social-list {
+}
+.social-item {
+}
+.link-social {
+}
+.icon-social {
+}
+
+/* ---------------Tablet------- */
+
+@media screen and (min-width: 768px) {
+  
+
+
+}
+
+/* ------------Desktop----- */
+/* .nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 40px;
+} */
