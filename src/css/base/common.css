@@ -4,4 +4,5 @@ body {
     line-height: 1.28;
     letter-spacing: -0.02;
     font-weight: 400;
+    background: var(--backgrond-color);
 }
