@@ -29,6 +29,7 @@ img {
 }
 
 .btn {
+  display: inline-block;
   cursor: pointer;
 }
 
