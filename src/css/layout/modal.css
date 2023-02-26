@@ -1,0 +1,169 @@
+.backdrop {
+	width: 100%;
+}
+
+.modal {
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	min-width: 230px;
+	max-width: 335px;
+	max-height: 100vh;
+	background-color: var(--brand-color);
+	padding: 24px 24px 40px 24px;
+
+	overflow: auto;
+}
+
+@media screen and (min-width:768px) {
+	.modal {
+		max-width: 628px;
+		padding: 32px 32px 60px 32px;
+	}
+}
+
+.form-title {
+	margin-bottom: 40px;
+	margin-right: 40px;
+	font-weight: 500;
+	font-size: 28px;
+	line-height: 1.36;
+	text-transform: uppercase;
+
+	color: var(--secons-brand-color);
+}
+
+@media screen and (min-width:768px) {
+	.form-title {
+		font-size: 36px;
+		line-height: 1.11;
+	}
+}
+
+.form-title>.part {
+	font-style: italic;
+}
+
+.form-subtitle {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.12;
+
+	text-transform: uppercase;
+	margin-bottom: 24px;
+
+	color: var(--secons-brand-color);
+}
+
+.form-wrap {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 32px;
+	margin-bottom: 40px;
+}
+
+.form-field {
+	width: 100%;
+}
+
+@media screen and (min-width:768px) {
+	.form-wrap {
+		row-gap: 40px;
+		column-gap: 32px;
+		margin-bottom: 80px;
+	}
+
+	.form-field {
+		width: calc((100% - 32px) /2);
+	}
+}
+
+.form-input {
+	background-color: transparent;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 0.8px solid rgba(247, 247, 247, 0.2);
+	width: 100%;
+	padding-bottom: 18px;
+	color: var(--secons-brand-color);
+	outline: 0;
+	text-transform: uppercase;
+}
+
+.form-input::placeholder {
+	font-weight: 500;
+	font-size: 14px;
+	text-transform: uppercase;
+
+	color: var(--secons-brand-color);
+}
+
+.form-input>option {
+	background: var(--brand-color);
+}
+
+input:-webkit-autofill {
+	-webkit-box-shadow: inset 0 0 0 50px var(--brand-color);
+	-webkit-text-fill-color: var(--secons-brand-color);
+}
+
+label {
+	font-size: 8px;
+	line-height: 1.5;
+
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+
+	color: #D8D7D7;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	cursor: pointer;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.select-wrap {
+	position: relative;
+}
+
+.select-wrap::before {
+	content: "";
+
+	position: absolute;
+	top: 0;
+	right: 0;
+
+	display: block;
+
+	background: url(../../img/icon-down.svg);
+	width: 20px;
+	height: 20px;
+
+	pointer-events: none;
+}
+
+.form-btn {
+	text-align: center;
+}
+
+.prices-per-night {
+	display: none;
+}
+
+@media screen and (min-width:768px) {
+	.prices-per-night {
+		display: block;
+	}
+
+	.check-in-date {
+		display: none;
+	}
+}

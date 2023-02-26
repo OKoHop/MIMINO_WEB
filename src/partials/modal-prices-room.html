@@ -1,46 +1,59 @@
 <div class="backdrop">
-  <div class="modal">
-    <button type="button" class="btn-close">
-      X
-      <svg width="28px" height="28px">
-        <use href=""></use>
-      </svg>
-    </button>
+        <div class="modal">
+          <button type="button" class="btn-close">
+            <svg width="32px" height="32px">
+              <use href="/img/icon-sprite.svg#icon-cross"></use>
+            </svg>
+          </button>
 
-    <h2 class="form-title">PRICES PER ROOM</h2>
+          <h2 class="form-title">PRICES PER <span class="part">ROOM</span></h2>
 
-    <h3 class="form-subtitle">Double suite</h3>
+          <h3 class="form-subtitle">Double suite</h3>
 
-    <form class="form">
-      <div class="form-field">
-        <div class="input-wrap">
-          <select name="nights" id="nights">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-          </select>
+          <form class="form">
+            <div class="form-wrap">
+              <div class="form-field">
+                <div class="select-wrap">
+                  <select class="form-input" name="nights" id="nights">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                  </select>
+                </div>
+                <label for="nights">Number of nights</label>
+              </div>
+
+              <div class="form-field check-in-date">
+                <div class="select-wrap">
+                  <select class="form-input" name="date" id="date">
+                    <option value="">25/04/2023</option>
+                  </select>
+                </div>
+                <label for="date">Check-in date</label>
+              </div>
+
+              <div class="form-field prices-per-night">
+                <div class="input-wrap">
+                  <input
+                    type="text"
+                    class="form-input"
+                    name="price"
+                    id="price"
+                    placeholder="1000"
+                    pattern="[0-9]{4,}"
+                    required
+                  />
+                </div>
+                <label for="price">UAH</label>
+              </div>
+            </div>
+
+            <div class="form-btn">
+              <button class="btn white mod" type="submit">
+                MAKE A RESERVATION
+              </button>
+            </div>
+          </form>
         </div>
-        <label for="nights">Number of nights</label>
       </div>
-
-      <div class="form-field">
-        <div class="input-wrap">
-          <input
-            type="text"
-            name="price"
-            id="price"
-            placeholder="1000"
-            pattern="[0-9]{4,}"
-            required
-          />
-        </div>
-        <label for="price">UAH</label>
-      </div>
-
-      <div class="form-btn">
-        <button class="" type="submit">MAKE A RESERVATION</button>
-      </div>
-    </form>
-  </div>
-</div>
