@@ -1,10 +1,10 @@
 <section class="hotel-room section">
-    <div class="container hotel-room-container">
+    <div class="hotel-room-container">
 
         <div class="hotel-room-photo">
             <ul class="room-gallery list">
 
-                            <li class="room-gallery-photo item">
+                            <li class="room-gallery-photo-main item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-four/four-room1-desktop.jpg 1x,
@@ -19,11 +19,12 @@
                                                                 ../img/mobile/hotel-room-four/four-room1-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-four/four-room1-mobile.jpg" alt="main view"
-                                        class="room-gallery-picture" width="335" />
-    
+                                        class="room-gallery-picture" />
+                                </picture>
                             </li>
                             
-                            <li class="room-gallery-photo item">
+                            <div class="two-photos-wrap">
+                            <li class="room-gallery-photo-bathroom item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-four/four-room2-desktop.jpg 1x,
@@ -38,11 +39,11 @@
                                                                 ../img/mobile/hotel-room-four/four-room2-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-four/four-room2-mobile.jpg" alt="room's bathroom view"
-                                        class="room-gallery-picture" width="158" />
+                                        class="room-gallery-picture" />
                                 </picture>
                             </li>
                             
-                            <li class="room-gallery-photo item">
+                            <li class="room-gallery-photo-kitchen item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-four/four-room3-desktop.jpg 1x,
@@ -57,14 +58,16 @@
                                                                 ../img/mobile/hotel-room-four/four-room3-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-four/four-room3-mobile.jpg" alt="room's kitchen view"
-                                        class="room-gallery-picture" width="158" />
+                                        class="room-gallery-picture" />
                                 </picture>
-                                </ul>
+                            </li>
+                            </div>
+                        </ul>
         </div>
 
         <h2 class="room-header-title">FOUR-SEATER ROOM</h2>
         <div class="room-description">
-            <p class="room-description-text">Our 4-person room is perfect for small groups, offering comfort and
+            <p class="room-description-text tablet-four-room">Our 4-person room is perfect for small groups, offering comfort and
                 convenience with 4 comfortable beds, ample storage,
                 flat-screen TV, mini-fridge, coffee maker, desk and chair, air-conditioning, heating, and soundproof
                 walls. Book now for

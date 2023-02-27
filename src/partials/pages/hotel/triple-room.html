@@ -1,9 +1,9 @@
 <section class="hotel-room section">
-    <div class="container hotel-room-container">
+    <div class="hotel-room-container">
         
         <div class="hotel-room-photo">
             <ul class="room-gallery list">
-                <li class="room-gallery-photo item">
+                <li class="room-gallery-main-photo item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-triple/trp-room1-desktop.jpg 1x,
@@ -18,11 +18,12 @@
                                                                 ../img/mobile/hotel-room-triple/trp-room1-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-triple/trp-room1-mobile.jpg" alt="main view"
-                                        class="room-gallery-picture" width="335" />
+                                        class="room-gallery-picture" />
                                 </picture>
                             </li>
                             
-                <li class="room-gallery-photo item">
+                            <div class="two-photos-wrap">
+                            <li class="room-gallery-photo-bathroom item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-triple/trp-room2-desktop.jpg 1x,
@@ -37,11 +38,11 @@
                                                                 ../img/mobile/hotel-room-triple/trp-room2-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-triple/trp-room2-mobile.jpg" alt="room's bathroom view"
-                                        class="room-gallery-picture" width="158" />
+                                        class="room-gallery-picture" />
                                 </picture>
                             </li>
                             
-                <li class="room-gallery-photo item">
+                            <li class="room-gallery-photo-kitchen item">
                                 <picture>
                                     <source srcset="
                                                                 ../img/desktop/hotel-room-triple/trp-room3-desktop.jpg 1x,
@@ -56,7 +57,7 @@
                                                                 ../img/mobile/hotel-room-triple/trp-room3-mobile@2x.jpg 2x,                    
                                                                 " media="(max-width: 767px)" />
                                     <img src="../img/mobile/hotel-room-triple/trp-room3-mobile.jpg" alt="room's kitchen view"
-                                        class="room-gallery-picture" width="158" />
+                                        class="room-gallery-picture" />
                                 </picture>
                             </li>
             </ul>
@@ -71,7 +72,7 @@
                 now for a memorable stay.</p>
         </div>
 
-        <div class="hotel-room-btns">
+        <div class="hotel-triple-room-btns">
             <a href="./room.html" class="room-details-btn btn link">More details</a>
             <button type="button" class="room-price-btn btn">View prices</button>
         </div>
