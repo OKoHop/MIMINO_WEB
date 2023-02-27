@@ -1,0 +1,17 @@
+@media screen and (min-width:375px) {
+ .container {
+ min-width: 375px;
+ padding: 0;
+ }
+
+ .about-rest-container {
+ width: 335px;
+ margin-right: auto;
+ margin-left: auto;
+ }
+
+ .about-rest-gallary-item {
+    width: 335px;
+ }
+}
+
