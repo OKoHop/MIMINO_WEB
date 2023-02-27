@@ -1,7 +1,13 @@
 .hero-hotel-container {
+  overflow: hidden;
   padding-top: 40px;
   position: relative;
 }
+
+/*.hero-hotel-position {
+  padding-top: 40px;
+  position: relative;
+}*/
 
 .hero-hotel-title {
   margin-bottom: 32px;
@@ -32,7 +38,6 @@
   position: absolute;
   top: 178px;
   max-width: 355px;
-  overflow: hidden;
 }
 
 .hero-hotel-gallery {
