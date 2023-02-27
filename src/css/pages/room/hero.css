@@ -1,0 +1,142 @@
+.hero-pages-container {
+  overflow: hidden;
+  padding-top: 40px;
+  position: relative;
+}
+
+.hero-pages-title {
+  margin-bottom: 32px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--brand-color);
+}
+
+.hero-pages-btn-block {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 569px;
+}
+
+/*.hero-pages-text {
+  letter-spacing: 0.05em;
+  max-width: 335px;
+  text-transform: uppercase;
+}*/
+/*--------room-----------------*/
+.hero-room-text {
+  letter-spacing: 0.05em;
+  max-width: 289px;
+  text-transform: uppercase;
+}
+.hero-pages-cards {
+  position: absolute;
+  top: 178px;
+  max-width: 355px;
+}
+
+.hero-pages-gallery {
+  display: flex;
+  gap: 20px;
+
+  margin-bottom: 24px;
+}
+
+img.hero-gallery-picture {
+  max-width: 250px;
+  height: 429px;
+}
+
+.hero-pages-click {
+  display: flex;
+  gap: 32px;
+  justify-content: right;
+
+  margin-right: 20px;
+}
+
+.hero-icon-btn {
+  width: 36px;
+  height: 36px;
+
+  display: inline-block;
+  stroke: var(--brand-color);
+  fill: transparent;
+
+  background-color: transparent;
+
+  border: 1px solid transparent;
+}
+
+.hero-icons {
+  widows: 7px;
+  height: 14px;
+}
+
+.hero-left-btn {
+  stroke: rgba(18, 18, 18, 0.3);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-pages-container {
+    padding-bottom: 40px;
+  }
+  .hero-pages-title {
+    font-size: 80px;
+  }
+  .hero-pages-btn-block {
+    margin-bottom: 642px;
+  }
+  .hero-pages-cards {
+    top: 242px;
+    max-width: 732px;
+    overflow: hidden;
+  }
+  .hero-pages-gallery {
+    gap: 32px;
+
+    margin-bottom: 40px;
+  }
+  img.hero-gallery-picture {
+    max-width: 436px;
+    height: 548px;
+  }
+  .hero-pages-footer {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-pages-container {
+    padding-top: 204px;
+    padding-bottom: 30px;
+  }
+  .hero-pages-title {
+    font-size: 90px;
+  }
+  .hero-pages-btn-block {
+    margin-bottom: 204px;
+  }
+  .hero-pages-cards {
+    top: 30px;
+    left: 737px;
+    max-width: 703px;
+    overflow: hidden;
+  }
+  .hero-pages-gallery {
+    gap: 32px;
+
+    margin-bottom: 16px;
+  }
+  .hero-pages-click {
+    justify-content: start;
+  }
+  img.hero-gallery-picture {
+    height: 580px;
+  }
+}
