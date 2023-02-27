@@ -30,8 +30,6 @@
 
 .hero-hotel-cards {
   position: absolute;
-  left: 20px;
-  right: 0;
   top: 178px;
   max-width: 355px;
   overflow: hidden;
