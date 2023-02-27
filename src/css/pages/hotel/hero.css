@@ -1,0 +1,139 @@
+.hero-hotel-container {
+  padding-top: 40px;
+  position: relative;
+}
+
+.hero-hotel-title {
+  margin-bottom: 32px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+
+  color: var(--brand-color);
+}
+
+.hero-hotel-btn-block {
+  display: flex;
+  gap: 14px;
+  margin-bottom: 569px;
+}
+
+.hero-hotel-text {
+  letter-spacing: 0.05em;
+  max-width: 335px;
+  text-transform: uppercase;
+}
+
+.hero-hotel-cards {
+  position: absolute;
+  left: 20px;
+  right: 0;
+  top: 178px;
+  max-width: 355px;
+  overflow: hidden;
+}
+
+.hero-hotel-gallery {
+  display: flex;
+  gap: 20px;
+
+  margin-bottom: 24px;
+}
+
+img.hero-gallery-picture {
+  max-width: 250px;
+  height: 429px;
+}
+
+.hero-hotel-click {
+  display: flex;
+  gap: 32px;
+  justify-content: right;
+
+  margin-right: 20px;
+}
+
+.hero-icon-btn {
+  width: 36px;
+  height: 36px;
+
+  display: inline-block;
+  stroke: var(--brand-color);
+  fill: transparent;
+
+  background-color: transparent;
+
+  border: 1px solid transparent;
+}
+
+.hero-icons {
+  widows: 7px;
+  height: 14px;
+}
+
+.hero-left-btn {
+  stroke: var(--btn-slider-color);
+}
+
+@media screen and (min-width: 768px) {
+  .hero-hotel-container {
+    padding-bottom: 40px;
+  }
+  .hero-hotel-title {
+    font-size: 80px;
+  }
+  .hero-hotel-btn-block {
+    margin-bottom: 642px;
+  }
+  .hero-hotel-cards {
+    top: 242px;
+    max-width: 732px;
+    overflow: hidden;
+  }
+  .hero-hotel-gallery {
+    gap: 32px;
+
+    margin-bottom: 40px;
+  }
+  img.hero-gallery-picture {
+    max-width: 436px;
+    height: 548px;
+  }
+  .hero-hotel-footer {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .hero-hotel-container {
+    padding-top: 204px;
+    padding-bottom: 30px;
+  }
+  .hero-hotel-title {
+    font-size: 90px;
+  }
+  .hero-hotel-btn-block {
+    margin-bottom: 204px;
+  }
+  .hero-hotel-cards {
+    top: 30px;
+    left: 737px;
+    max-width: 703px;
+    overflow: hidden;
+  }
+  .hero-hotel-gallery {
+    gap: 32px;
+
+    margin-bottom: 16px;
+  }
+  .hero-hotel-click {
+    justify-content: start;
+  }
+  img.hero-gallery-picture {
+    height: 580px;
+  }
+}

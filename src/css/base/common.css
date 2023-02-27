@@ -1,8 +1,8 @@
 body {
-    font-family: 'DM Sans', sans-serif;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02;
-    font-weight: 400;
-    background: var(--secons-brand-color);
+  font-family: 'DM Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1.28;
+  letter-spacing: -0.02;
+  font-weight: 400;
+  background: var(--secons-brand-color);
 }
