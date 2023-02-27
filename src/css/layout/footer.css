@@ -1,0 +1,118 @@
+.footer-section{
+height: 125px;
+background-color: #ffffff;
+padding-top: 24px;
+padding-bottom: 32px;
+outline: 1px solid blue;
+}
+
+.footer-wrap{
+height: 61px;
+border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
+}
+
+.footer-container {
+display: flex;
+justify-content: space-between;
+align-items: center; 
+outline: 1px solid tomato;
+margin: 0 auto;
+}
+
+.footer-nav {
+display: none;
+}
+
+.footer-link {
+display: flex;
+flex-direction: column; 
+color: var(--brand-color);  
+}
+
+
+
+.footer-logo-text.logo-mimino {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+margin-bottom: 3px; 
+
+}
+.footer-logo-text.logo-about {
+font-size: 8px;
+line-height: 1.25;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+
+}
+
+.footer-social-list {
+    display: flex;
+    gap: 14px;
+}
+
+.footer-social-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-link-social {
+    fill: transparent;
+    stroke: var(--brand-color);
+}
+
+@media screen and (min-width: 768px){
+    .footer-section{
+        height: 149px;
+        padding-top: 32px;
+        padding-bottom: 48px;
+        }
+
+        .footer-wrap{
+            height: 64px;
+        }
+
+    .footer-social-list {
+        display: flex;
+        gap: 16px;
+    }
+
+.footer-icon-social{
+width: 24px;   
+height: 24px; 
+}
+}
+
+@media screen and (min-width: 1440px){
+
+.footer-section{
+height: 241px;
+padding-top: 44px;
+padding-bottom: 80px;        
+}
+
+.footer-wrap{
+height: 117px;
+}
+
+.footer-nav{
+display: flex;  
+}
+
+.footer-nav-list{
+display: flex;
+gap: 32px; 
+justify-content: center; 
+align-items: center; 
+}
+
+.nav-link{
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--brand-color);    
+}
+}
