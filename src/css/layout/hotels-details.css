@@ -1,0 +1,104 @@
+.details {
+  padding: 44px 0;
+  background-color: var(--brand-color);
+}
+
+.details-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  text-transform: uppercase;
+  color: var(--text-color);
+  margin-bottom: 32px;
+}
+
+.details-desc {
+  width: 335px;
+  font-weight: 500;
+  color: var(--text-color);
+  text-transform: uppercase;
+  margin-bottom: 33px;
+}
+
+.bedroom-img {
+  width: 335px;
+  height: 417px;
+  grid-area: bedroom;
+}
+
+.bottles {
+  width: 158px;
+  height: 128px;
+  grid-area: bottles;
+}
+
+.slider-img{
+  width: 158px;
+  height: 128px;
+}
+
+.bathtub{
+  width: 158px;
+  height: 128px;
+  grid-area: bathtub;
+}
+
+.slider-img {
+  width: 158px;
+  height: 128px;
+}
+
+.details-click {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 40px;
+}
+
+.details-icon-btn {
+  width: 36px;
+  height: 36px;
+
+  display: inline-block;
+  stroke: var(--secons-brand-color);
+  fill: transparent;
+
+  background-color: transparent;
+
+  border: 1px solid transparent;
+}
+
+.details-icons {
+  widows: 7px;
+  height: 14px;
+}
+
+.details-left-btn {
+  stroke: rgba(255, 255, 255, 0.3);
+}
+
+
+.details-img-wrap {
+  display: grid;
+  column-gap: 20px;
+  row-gap: 27px;
+  grid-template-areas:
+    'bedroom'
+    'bottles'
+    'bathtub';
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'bedroom  bedroom'
+    'bottles  bathtub';
+}
+
+.details-btn{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 768px) {
+  .ghost-img {
+    display: none;
+  }
+}
