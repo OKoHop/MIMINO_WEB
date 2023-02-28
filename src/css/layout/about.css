@@ -75,9 +75,6 @@ color: #121212;
     margin-bottom: 64px;
 }
 
-
-
-
 .business {
         position: relative;  
        height: 818px;
@@ -95,7 +92,6 @@ box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
 border-radius: 6px;
 display: flex;  
  position: absolute;  
-/* position:relative; */
 top: 272px; 
 }
 
@@ -131,4 +127,55 @@ line-height: 1.29;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: #121212;  
+}
+
+@media screen and (min-width: 768px) {
+.complex {
+    position: relative;
+}
+    .pic-bathroom {
+    position: absolute;
+    top: 20;
+    left: 50;
+}
+
+.maria {
+    position: absolute;
+    top: 176;
+    left: 370;
+}
+
+.complex-text-bottom {
+    margin-bottom: 80px;
+}
+
+.business {
+    position: relative;
+    height: 841px;
+}
+
+.business-table-drinks-img {
+    width: 530px;
+    height: 492px;
+    position: absolute;
+    left: 174px;
+}
+
+.alex {
+    position: absolute;
+    top: 303px;
+    left: 67px;
+}
+
+.business-old-hall-img {
+    width: 266px;
+    height: 309px;
+  
+}
+
+.business-old-hall {
+   position: absolute;
+    top: 532px; 
+    left: 0px; 
+    }
 }
