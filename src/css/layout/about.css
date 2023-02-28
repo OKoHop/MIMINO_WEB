@@ -1,6 +1,7 @@
 @media screen and (min-width:375px) {}
 .about-complex {
     padding-top: 64px;
+    padding-bottom: 64px;
 }
 .complex {
     position: relative;
@@ -78,7 +79,7 @@ color: #121212;
 
 
 .business {
-       position: relative; 
+        position: relative;  
        height: 818px;
 }
 
@@ -93,7 +94,8 @@ background-color: #121212;
 box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
 border-radius: 6px;
 display: flex;  
-position: absolute; 
+ position: absolute;  
+/* position:relative; */
 top: 272px; 
 }
 
@@ -103,17 +105,30 @@ background-color: #121212;
 border: 1px solid red;
 }
 
-.name-rating {
+.business-old-hall {
+position: absolute; 
+top: 509px;
 }
 
-.business-old-hall {
-    position: absolute;
-    top: 509px;
-}
 .business-advert {
+    position: absolute;
+    top: 365px;
 }
+
 .business-title {
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: #484848;
+margin-bottom: 18px;
 }
+
 .business-text {
-    
+  font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #121212;  
 }
