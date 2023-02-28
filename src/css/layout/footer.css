@@ -3,7 +3,6 @@ height: 125px;
 background-color: #ffffff;
 padding-top: 24px;
 padding-bottom: 32px;
-outline: 1px solid blue;
 }
 
 .footer-wrap{
@@ -15,7 +14,6 @@ border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
 display: flex;
 justify-content: space-between;
 align-items: center; 
-outline: 1px solid tomato;
 margin: 0 auto;
 }
 
