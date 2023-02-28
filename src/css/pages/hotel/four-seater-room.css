@@ -1,0 +1,197 @@
+.four-seater-hotel-room-photo {
+    margin-bottom: 32px;
+}
+
+.four-seater-room-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 19px;
+    justify-content: center;
+}
+
+.four-seater-room-gallery-main-photo {
+    width: 335px;
+}
+
+.four-seater-room-gallery-photo-bathroom-desktop {
+    display: none;
+}
+
+.four-seater-room-gallery-photo-kitchen-desktop {
+    display: none;
+}
+
+.four-seater-two-photos-wrap {
+    display: flex;
+    gap: 19px;
+}
+
+.four-seater-room-gallery-photo-bathroom,
+.four-seater-room-gallery-photo-kitchen {
+    width: 158px;
+}
+
+.four-seater-room-header-title {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: calc(40 / 32);
+    text-align: left;
+    margin-bottom: 32px;
+    max-width: 246px;
+}
+
+.four-seater-room-description {
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    margin-bottom: 32px;
+}
+
+.four-seater-room-description-text {
+    text-transform: uppercase;
+    letter-spacing: -0.02em;
+    text-align: left;
+}
+
+.four-seater-hotel-room-btns {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (min-width: 375px) {
+    .hotel-room-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 335px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .hotel-room-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 704px;
+    }
+
+    .four-seater-room-gallery {
+        flex-direction: row-reverse;
+        gap: 32px;
+    }
+
+    .four-seater-room-gallery-main-photo {
+        width: 331px;
+    }
+
+    .four-seater-room-gallery-photo-bathroom {
+        width: 223px;
+    }
+
+    .four-seater-room-gallery-photo-kitchen {
+        width: 341px;
+    }
+
+    .four-seater-two-photos-wrap {
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        align-items: flex-end;
+    }
+
+    .four-seater-room-header-title {
+        max-width: 100%;
+        font-size: 40px;
+        line-height: calc(44 / 40);
+
+    }
+
+    .four-seater-room-description {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+        margin-bottom: 32px;
+    }
+
+    .four-seater-room-description-text {
+        font-size: 18px;
+        line-height: calc(24 / 18);
+    }
+
+    .four-seater-tablet-four-room {
+        width: 475px;
+    }
+
+    .four-seater-room-description-text-one {
+        width: 369px;
+    }
+
+    .four-seater-room-description-text-two {
+        width: 299px;
+    }
+
+    .four-seater-hotel-room-btns {
+        gap: 14px;
+        justify-content: end;
+    }
+
+}
+
+@media screen and (min-width: 1440px) {
+    .hotel-room-container {
+        margin-right: auto;
+        margin-left: auto;
+        width: 1408px;
+    }
+
+    .four-seater-hotel-room-photo {
+        margin-bottom: 50px;
+    }
+
+    .four-seater-hotel-room-btns {
+        gap: 14px;
+        justify-content: end;
+    }
+
+    .four-seater-two-photos-wrap {
+        display: none;
+    }
+
+    .four-seater-room-gallery-photo-bathroom-desktop {
+        display: block;
+        width: 387px;
+        order: -1;
+    }
+
+    .four-seater-room-gallery-photo-kitchen-desktop {
+        display: block;
+        width: 386px;
+    }
+
+    .four-seater-room-gallery-main-photo {
+        width: 539px;
+    }
+
+    .four-seater-room-gallery {
+        flex-direction: row-reverse;
+        gap: 32px;
+        align-items: center;
+    }
+
+    .four-seater-room-header-title {
+        margin-bottom: 40px;
+        position: relative;
+    }
+
+    .four-seater-room-description-text-one {
+        width: 355px;
+    }
+
+    .four-seater-desktop-btn-alingment {
+        position: relative;
+    }
+
+    .four-seater-hotel-room-btns {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+}
