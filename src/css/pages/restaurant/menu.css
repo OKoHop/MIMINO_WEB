@@ -1,11 +1,6 @@
 .menu-rest {
 background-color: var(--brand-color);
 }
-
-.container {
-min-width: 375px;
-padding: 0;
-}
     
 .menu-rest-title {
 font-weight: 700;
