@@ -107,6 +107,7 @@ margin-bottom: 40px;
 .menu-next-btn {
 background-color: transparent;
 border: transparent;
+fill: transparent;
 }
 
 .menu-pre-left,
@@ -184,6 +185,7 @@ margin-left: auto;
     width: 1104px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0;
     }
 
     .menu-rest-hot-meals {
@@ -225,6 +227,7 @@ margin-left: auto;
 
    .menu-btn-wrap {
     margin-left: 0;
+    display: block;
    }
     
     .menu-btn {
