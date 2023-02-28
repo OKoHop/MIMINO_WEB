@@ -7,6 +7,15 @@
     position: relative;
 }
 
+.chimney, .bathroom {
+    display: block;
+}
+
+
+.pic-chimney {
+    margin-bottom: 20px;
+}
+
 .maria {
 width: 212px;
 height: 61px;
@@ -48,6 +57,7 @@ color: #575757;
 
 .complex-text {
     width: 335px; 
+    margin-top: 32px;
 }
 .complex-title {
 font-size: 12px;
@@ -68,6 +78,7 @@ color: #121212;
 }
 
 .complex-text-top {
+    
     margin-bottom: 14px;
 }
 
@@ -132,11 +143,18 @@ color: #121212;
 @media screen and (min-width: 768px) {
 .complex {
     position: relative;
+    
 }
-    .pic-bathroom {
-    position: absolute;
-    top: 20;
-    left: 50;
+
+.pic-chimney {
+width: 482px;
+height: 636px
+}
+
+.pic-bathroom-img {
+position: absolute;
+top: 20;
+left: 50;
 }
 
 .maria {
@@ -170,12 +188,17 @@ color: #121212;
 .business-old-hall-img {
     width: 266px;
     height: 309px;
-  
-}
+ }
 
 .business-old-hall {
    position: absolute;
     top: 532px; 
     left: 0px; 
     }
+
+.business-advert {
+  position: absolute;
+  top: 532px; 
+    left: 298px;   
+}
 }
