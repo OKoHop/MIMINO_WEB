@@ -14,6 +14,10 @@ margin-right: auto;
 margin-left: auto;
 }
 
+.menu-container-wrap {
+padding-left: 0;
+}
+
 .menu-rest-suptitle {
 font-style: italic;
 font-weight: 700;
