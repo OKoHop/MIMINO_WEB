@@ -464,8 +464,216 @@
 </section>
 </footer>
   
-  ENOENT: no such file or directory, open '/home/runner/work/project-team-9/project-team-9/src/partials/modal-book-room.html'
-  ENOENT: no such file or directory, open '/home/runner/work/project-team-9/project-team-9/src/partials/modal-book-table.html'
+  <!-- Book a Room Modal window -->
+      <div class="modal" data-modal="1">
+    <button type="button" class="btn-close js-modal-close">
+      <svg width="32px" height="32px">
+        <use href="../img/icon-sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+
+    <h2 class="form-title">BOOK <span class="part">A ROOM</span></h2>
+
+    <form class="form">
+      <div class="form-wrap">
+        <div class="form-field">
+          <div class="input-wrap">
+            <input
+              type="text"
+              class="form-input"
+              name="name"
+              id="name2"
+              placeholder="Your name"
+              pattern="^[a-zA-Z]+$"
+              required
+            />
+          </div>
+          <label for="name2">Who should book a room for?</label>
+        </div>
+
+        <div class="form-field">
+          <div class="input-wrap">
+            <input
+              type="tel"
+              class="form-input"
+              name="phone"
+              id="tel2"
+              placeholder="+38 ()"
+              pattern="^\+38[0-9]{10}$"
+              required
+            />
+          </div>
+          <label for="tel2">Phone number</label>
+        </div>
+
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="day" id="day-select2">
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+            </select>
+          </div>
+          <label for="day-select2">Check-in date</label>
+        </div>
+
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="date" id="date">
+              <option value="">25/04/2023</option>
+            </select>
+          </div>
+          <label for="date">Check-out date</label>
+        </div>
+
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="number" id="category">
+              <option value="Double">Double suite</option>
+              <option value="Triple">Triple room</option>
+              <option value="Four-seater">Four-seater room</option>
+            </select>
+          </div>
+          <label for="category">Number category</label>
+        </div>
+      </div>
+
+      <div class="form-btn">
+        <button class="btn white mod" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+
+			<!-- Book a Table Modal window -->
+			<div class="modal" data-modal="2">
+    <button type="button" class="btn-close js-modal-close">
+      <svg width="32px" height="32px">
+        <use href="../img/icon-sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+
+    <h2 class="form-title">BOOK <span class="part">A TABLE</span></h2>
+
+    <form class="form">
+      <div class="form-wrap">
+        <div class="form-field">
+          <div class="input-wrap">
+            <input
+              type="text"
+              class="form-input"
+              name="name"
+              id="name1"
+              placeholder="Your name"
+              pattern="^[a-zA-Z]+$"
+              required
+            />
+          </div>
+          <label for="name1">Who should book a table for?</label>
+        </div>
+
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="people" id="people">
+              <option value="">number of people</option>
+              <option value="1">One</option>
+              <option value="2">Two</option>
+              <option value="3">Three</option>
+              <option value="4">Four</option>
+            </select>
+          </div>
+          <label for="people"></label>
+        </div>
+
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="day" id="day-select1">
+              <option value="Today">Today</option>
+              <option value="Tomorrow">Tomorrow</option>
+            </select>
+          </div>
+          <label for="day-select1">What date to book?</label>
+        </div>
+
+        <div class="form-field">
+          <div class="input-wrap">
+            <input
+              type="tel"
+              class="form-input"
+              name="phone"
+              id="tel1"
+              placeholder="+38 ()"
+              pattern="^\+38[0-9]{10}$"
+              required
+            />
+          </div>
+          <label for="tel1">Phone number</label>
+        </div>
+      </div>
+
+      <div class="form-btn">
+        <button class="btn white mod" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+
+			<!-- Prices per Room Modal window -->
+			<div class="modal" data-modal="3">
+    <button type="button" class="btn-close js-modal-close">
+      <svg width="32px" height="32px">
+        <use href="../img/icon-sprite.svg#icon-cross"></use>
+      </svg>
+    </button>
+
+    <h2 class="form-title">PRICES PER <span class="part">ROOM</span></h2>
+
+    <h3 class="form-subtitle">Double suite</h3>
+
+    <form class="form">
+      <div class="form-wrap">
+        <div class="form-field">
+          <div class="select-wrap">
+            <select class="form-input" name="nights" id="nights">
+              <option value="1">1</option>
+              <option value="2">2</option>
+              <option value="3">3</option>
+              <option value="4">4</option>
+            </select>
+          </div>
+          <label for="nights">Number of nights</label>
+        </div>
+
+        <div class="form-field check-in-date">
+          <div class="select-wrap">
+            <select class="form-input" name="date" id="date">
+              <option value="">25/04/2023</option>
+            </select>
+          </div>
+          <label for="date">Check-in date</label>
+        </div>
+
+        <div class="form-field prices-per-night">
+          <div class="input-wrap">
+            <input
+              type="text"
+              class="form-input"
+              name="price"
+              id="price"
+              placeholder="1000"
+              pattern="[0-9]{4,}"
+              required
+            />
+          </div>
+          <label for="price">UAH</label>
+        </div>
+      </div>
+
+      <div class="form-btn">
+        <button class="btn white mod" type="submit">MAKE A RESERVATION</button>
+      </div>
+    </form>
+  </div>
+
+	<div class="overlay js-overlay-modal"></div>
+
 
   
 </body>
