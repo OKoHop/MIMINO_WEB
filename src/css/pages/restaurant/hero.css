@@ -1,8 +1,4 @@
 .hero-rest {
-  overflow: hidden;
-}
-
-.hero-rest-container {
   padding-top: 40px;
   position: relative;
 }
@@ -36,6 +32,7 @@
   position: absolute;
   top: 178px;
   max-width: 355px;
+
   overflow: hidden;
 }
 
@@ -60,9 +57,6 @@ img.hero-rest-gallery-picture {
 }
 
 .hero-rest-icon-btn {
-  width: 36px;
-  height: 36px;
-
   display: inline-block;
   stroke: var(--brand-color);
   fill: transparent;
@@ -72,17 +66,12 @@ img.hero-rest-gallery-picture {
   border: 1px solid transparent;
 }
 
-.hero-rest-icons {
-  widows: 7px;
-  height: 14px;
-}
-
 .hero-rest-left-btn {
   stroke: rgba(18, 18, 18, 0.3);
 }
 
 @media screen and (min-width: 768px) {
-  .hero-rest-container {
+  .hero-rest {
     padding-bottom: 40px;
   }
   .hero-rest-title {
@@ -94,7 +83,6 @@ img.hero-rest-gallery-picture {
   .hero-rest-cards {
     top: 242px;
     max-width: 732px;
-    overflow: hidden;
   }
   .hero-rest-gallery {
     gap: 32px;
@@ -111,7 +99,7 @@ img.hero-rest-gallery-picture {
 }
 
 @media screen and (min-width: 1440px) {
-  .hero-rest-container {
+  .hero-rest {
     padding-top: 204px;
     padding-bottom: 30px;
   }
@@ -125,7 +113,6 @@ img.hero-rest-gallery-picture {
     top: 30px;
     left: 737px;
     max-width: 703px;
-    overflow: hidden;
   }
   .hero-rest-gallery {
     gap: 32px;
