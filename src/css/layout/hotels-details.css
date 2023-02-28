@@ -20,10 +20,15 @@
   margin-bottom: 33px;
 }
 
-.bedroom-img {
+.bedroom {
   width: 335px;
   height: 417px;
   grid-area: bedroom;
+}
+
+.bedroom-img {
+  width: 335px;
+  height: 417px;
 }
 
 .bottles {
@@ -32,20 +37,15 @@
   grid-area: bottles;
 }
 
-.slider-img{
-  width: 158px;
-  height: 128px;
-}
-
-.bathtub{
-  width: 158px;
-  height: 128px;
-  grid-area: bathtub;
-}
-
 .slider-img {
   width: 158px;
   height: 128px;
+}
+
+.bathtub {
+  width: 158px;
+  height: 128px;
+  grid-area: bathtub;
 }
 
 .details-click {
@@ -76,7 +76,6 @@
   stroke: rgba(255, 255, 255, 0.3);
 }
 
-
 .details-img-wrap {
   display: grid;
   column-gap: 20px;
@@ -91,14 +90,103 @@
     'bottles  bathtub';
 }
 
-.details-btn{
+.details-btn {
   display: flex;
   gap: 12px;
   justify-content: center;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 375px) {
   .ghost-img {
     display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ghost-img {
+    display: unset;
+  }
+
+  .details-title {
+    font-size: 68px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+
+  .details-desc {
+    width: 390px;
+    margin-bottom: 0;
+  }
+
+  .details-text-wrap {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  .bedroom {
+    width: 320px;
+  }
+
+  .bedroom-img {
+    width: 320px;
+  }
+
+  .bottles {
+    width: 176px;
+    height: 143px;
+  }
+
+  .slider-img {
+    width: 176px;
+    height: 143px;
+  }
+
+  .bathtub {
+    width: 176px;
+    height: 258px;
+  }
+
+  .bathroom {
+    width: 176px;
+    height: 258px;
+    grid-area: bathroom;
+  }
+
+  .care {
+    width: 176px;
+    height: 143px;
+    grid-area: care;
+  }
+
+  .long-tablet-img {
+    width: 176px;
+    height: 258px;
+  }
+
+  .details-click {
+    display: none
+  }
+
+  .details-img-wrap {
+    column-gap: 16px;
+    row-gap: 16px;
+    grid-template-areas:
+      'bedroom'
+      'bottles'
+      'bathtub'
+      'bathroom'
+      'care';
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      'bottles bedroom bathroom'
+      'bathtub bedroom bathroom'
+      'bathtub bedroom care';
+      margin-bottom: 40px;
+  }
+
+  .details-btn {
+    gap: 14px;
   }
 }
