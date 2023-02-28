@@ -21,6 +21,17 @@
   display: flex;
 }
 
+.main-active .mobile-menu-btn
+{
+  /* fill: var(--brand-color); */
+  stroke-linecap: #F7F7F7;
+  background-color: var(--brand-color);
+}
+
+.main-active .icon-menu{
+  stroke: #F7F7F7;
+}
+
 .icon-menu {
   stroke: var(--brand-color);
   width: 28px;
@@ -49,6 +60,20 @@
 
 .header-link {
   display: inline-block;
+}
+
+.main-active .header {
+  background-color: var(--brand-color);
+}
+
+.main-active .nav-link,
+.main-active .logo-text {
+  color: #F7F7F7;    
+}
+
+.main-active .icon-social {
+  fill: var(--brand-color);
+  stroke: #F7F7F7;
 }
 
 .link {
@@ -159,21 +184,6 @@
     color: #747bff;
   } */
   
-  .main-active .nav-link,
-  .main-active .logo-text {
-    color: #F7F7F7;    
-  }
-
-  .main-active .icon-social {
-    fill: var(--brand-color);
-    stroke: #F7F7F7;
-  }
-
-  .main-active .header {
-    background-color: var(--brand-color);
-  }
-
-
   .nav-link::after{
     content: "";
     position: absolute;

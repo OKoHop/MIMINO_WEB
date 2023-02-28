@@ -1,7 +1,7 @@
 .mobile-menu.is-hidden {
-    opacity: 0;
-    display: none;
     pointer-events: none;
+    transition: left 1s 0.1s;
+    left: -100%;
 }
 
 .mobile-menu {
@@ -9,9 +9,16 @@
     width: 100%;
     background: #fff;
     position: fixed;
-    margin-top: 25px;
+    margin-top: 24px;
     overflow: scroll;
     padding-top: 120px;
+    z-index: 2;
+    transition: left 1s;
+    left: 0;
+}
+
+.main-active .mobile-menu{
+    background: var(--brand-color);
 }
 
 .header .mobile-menu-content {
