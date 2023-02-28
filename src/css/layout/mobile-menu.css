@@ -56,6 +56,10 @@
     text-transform: uppercase;
 }
 
+.mobile-menu .icon-social {
+    width: 20px;
+    height: 20px;
+}
 
 /* ---------------Tablet------- */
 
