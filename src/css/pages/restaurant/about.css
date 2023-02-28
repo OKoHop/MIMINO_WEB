@@ -1,8 +1,8 @@
 @media screen and (min-width:375px) {
- .container {
+ /* .container {
  min-width: 375px;
  padding: 0;
- }
+ } */
 
  .about-rest-container {
  width: 335px;
