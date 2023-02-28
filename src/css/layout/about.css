@@ -1,3 +1,7 @@
+@media screen and (min-width:375px) {}
+.about-complex {
+    padding-top: 64px;
+}
 .complex {
     position: relative;
 }
@@ -15,8 +19,9 @@ left: 123px;
 }
 
 .maria-face {
-margin-right: 12px;
+margin: 10px 12px 10px 14px;
 background-color: #121212;
+border: 1px solid red;
 }
 
 .name-rating {
@@ -24,7 +29,6 @@ display: flex;
 flex-direction: column;
 gap: 7px;
 margin-top: 12px;
-/* margin-left: 12px; */
 }
 
 .maria-name {
@@ -42,7 +46,7 @@ color: #575757;
 }
 
 .complex-text {
-    max-width: 335px;
+    width: 335px; 
 }
 .complex-title {
 font-size: 12px;
@@ -60,11 +64,56 @@ line-height: 1.29;
 letter-spacing: -0.02em;
 text-transform: uppercase;
 color: #121212;
-
 }
 
 .complex-text-top {
     margin-bottom: 14px;
 }
 
+.complex-text-bottom {
+    margin-bottom: 64px;
+}
+
+
+
+
+.business {
+       position: relative; 
+       height: 818px;
+}
+
+.business-table-drinks {
  
+}
+
+.alex {
+width: 212px;
+height: 61px;
+background-color: #121212;
+box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+display: flex;  
+position: absolute; 
+top: 272px; 
+}
+
+.alex-face {
+margin: 10px 12px 10px 14px;
+background-color: #121212;
+border: 1px solid red;
+}
+
+.name-rating {
+}
+
+.business-old-hall {
+    position: absolute;
+    top: 509px;
+}
+.business-advert {
+}
+.business-title {
+}
+.business-text {
+    
+}
