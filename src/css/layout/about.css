@@ -1,0 +1,47 @@
+.maria {
+ width: 212px;
+height: 61px;
+background-color: #121212;
+box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+border-radius: 6px;
+display: flex;   
+}
+
+.name-rating {
+display: flex;
+}
+
+.maria-name {
+ font-weight: 500;
+font-size: 14px;
+line-height: 1;
+color: #F7F7F7;   
+}
+
+
+.maria-rating {
+    font-size: 12px;
+line-height: 1.33;
+color: #575757;
+}
+.complex-text {
+    max-width: 335px;
+}
+.complex-title {
+font-size: 12px;
+line-height: 1.17;
+letter-spacing: 0.18em;
+text-transform: uppercase;
+color: #484848;
+
+}
+.complex-text-top, .complex-text-bottom {
+font-weight: 500;
+font-size: 14px;
+line-height: 1.29;
+letter-spacing: -0.02em;
+text-transform: uppercase;
+color: #121212;
+
+}
+ 
