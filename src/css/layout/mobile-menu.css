@@ -1,0 +1,64 @@
+.mobile-menu.is-hidden {
+    opacity: 0;
+    display: none;
+    pointer-events: none;
+}
+
+.mobile-menu {
+    height: 100vh;
+    width: 100%;
+    background: #fff;
+    position: fixed;
+    margin-top: 25px;
+    overflow: scroll;
+    padding-top: 120px;
+}
+
+.header .mobile-menu-content {
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    height: 100%;
+    align-items: start;
+}
+
+.mobile-menu .nav-list {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.mobile-menu .social-list {
+    display: flex;
+    margin-left: 20px;
+}
+
+.mobile-menu .social-link {
+    display: flex;
+    position: absolute;
+    bottom: 90px;
+}
+
+.hidden-icon {
+    display: none;
+}
+
+.mobile-menu  .nav-link {
+    font-size: 18px;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+
+/* ---------------Tablet------- */
+
+@media screen and (min-width: 768px) {
+    .mobile-menu .social-link {
+        display: none;
+    }
+
+    .header .mobile-menu {
+        padding-top: 240px;
+        justify-content: start;
+    }
+}
