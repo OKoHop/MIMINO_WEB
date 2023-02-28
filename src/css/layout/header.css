@@ -67,9 +67,6 @@
   stroke: #F7F7F7;
 }
 
-.link {
-}
-
 .logo-text {
   display: flex;
   flex-direction: column;
@@ -104,14 +101,8 @@
   display: none;
 }
 
-.social-list {
-}
-
 .social-item:not(:last-child) {
   margin-right: 20px;
-}
-
-.link-social {
 }
 
 .no-scroll {
@@ -198,5 +189,16 @@
     left: 43px;
   }
 
+  .logo-mimino {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.18em;
+  }
+  
+  .logo-about {
+    font-size: 8px;
+    line-height: 1.25;
+    letter-spacing: 0.18em;
+  }
 }
 
