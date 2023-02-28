@@ -89,13 +89,15 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 767px) {
-  .ghost-img {
+.ghost-img {
     display: none;
   }
-}
 
 @media screen and (min-width: 768px) {
+  .ghost-img {
+    display: unset;
+  }
+
   .details-title {
     font-size: 68px;
     line-height: 1;
