@@ -208,7 +208,7 @@
   }
 
   .complex-text {
-    display: block;
+    /* display: block; */
     position: absolute;
     top: 199px;
     left: 846px;
