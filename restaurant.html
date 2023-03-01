@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
   <script type="module" crossorigin src="/project-team-9/assets/mobile-menu-384ad442.js"></script>
-  <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-69432ea2.css">
+  <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-fefa5fc0.css">
 </head>
 
 <body class="restaurant-active">
@@ -106,311 +106,145 @@
 
   <main>
     <section class="hero-rest section">
-  <div class="container hero-rest-container">
-    <div class="hero-rest-block">
-      <h1 class="hero-rest-title hero-title">Restaurant</h1>
-      <div class="hero-rest-btn-block">
-        <button type="button" class="hero-btn btn">book a table</button>
-        <button type="button" class="hero-btn btn">View a menu</button>
+  <div class="container">
+    <div class="hero-rest-container">
+      <div class="hero-rest-block">
+        <h1 class="hero-rest-title">restaurant</h1>
+        <div class="hero-rest-btn-block">
+          <button
+            type="button"
+            class="hero-rest-btn btn js-open-modal"
+            data-modal="2"
+          >
+            book a table
+          </button>
+          <button type="button" class="hero-rest-btn btn">
+            <a href="#menu" class="link">View a menu</a>
+          </button>
+        </div>
+      </div>
+      <div class="hero-rest-cards">
+        <ul class="hero-rest-gallery list">
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest1-desktop-f970db41.jpg 1x, /project-team-9/assets/rest1-desktop@2x-a7b29689.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest1-tablet-76f43143.jpg 1x, /project-team-9/assets/rest1-tablet@2x-dbf6222f.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest1-mobile-5091302c.jpg 1x, /project-team-9/assets/rest1-mobile@2x-54706c6b.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest1-mobile-5091302c.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest2-desktop-f55f1b7c.jpg 1x, /project-team-9/assets/rest2-desktop@2x-cc0fe7f1.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest2-tablet-3cab7506.jpg 1x, /project-team-9/assets/rest2-tablet@2x-74128278.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest2-mobile-6fb70ebd.jpg 1x, /project-team-9/assets/rest2-mobile@2x-55e97b8d.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest2-mobile-6fb70ebd.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest3-desktop-d6dd8fc0.jpg 1x, /project-team-9/assets/rest3-desktop@2x-7b6b8c97.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest3-tablet-75d2a396.jpg 1x, /project-team-9/assets/rest3-tablet@2x-05fee854.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest3-mobile-2039c7a7.jpg 1x, /project-team-9/assets/rest3-mobile@2x-3edcc4a8.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest3-mobile-2039c7a7.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest4-desktop-325f2270.jpg 1x, /project-team-9/assets/rest4-desktop@2x-694852f3.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest4-tablet-774bd65a.jpg 1x, /project-team-9/assets/rest4-tablet@2x-a0ce684f.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest4-mobile-06421e10.jpg 1x, /project-team-9/assets/rest4-mobile@2x-b9cfa837.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest4-mobile-06421e10.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest5-desktop-1657e539.jpg 1x, /project-team-9/assets/rest5-desktop@2x-c42a1dcb.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest5-tablet-b1e6dbc1.jpg 1x, /project-team-9/assets/rest5-tablet@2x-4424ca7f.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest5-mobile-09848b6b.jpg 1x, /project-team-9/assets/rest5-mobile@2x-22e09281.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest5-mobile-09848b6b.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+          <li class="hero-rest-gallery-item item">
+            <picture>
+              <source
+                srcset="/project-team-9/assets/rest6-desktop-57ec799c.jpg 1x, /project-team-9/assets/rest6-desktop@2x-527823b5.jpg 2x"
+                media="(min-width: 1440px)" />
+              <source
+                srcset="/project-team-9/assets/rest6-tablet-518b9040.jpg 1x, /project-team-9/assets/rest6-tablet@2x-d1f5a9ed.jpg 2x"
+                media="(min-width: 768px)" />
+              <source
+                srcset="/project-team-9/assets/rest6-mobile-2c066994.jpg 1x, /project-team-9/assets/rest6-mobile@2x-f7a0bfec.jpg 2x"
+                media="(max-width: 767px)" />
+              <img
+                src="/project-team-9/assets/rest6-mobile-2c066994.jpg"
+                alt="restaurant"
+                class="hero-rest-gallery-picture"
+            /></picture>
+          </li>
+        </ul>
+        <div class="hero-rest-click">
+          <button class="hero-rest-icon-btn hero-rest-left-btn" type="button">
+            <svg class="hero-rest-icons" width="24" height="24">
+              <use href="/project-team-9/assets/icon-sprite-cd4d49fe.svg#icon-left"></use>
+            </svg>
+          </button>
+          <button class="hero-rest-icon-btn" type="button">
+            <svg class="hero-rest-icons" width="24" height="24">
+              <use href="/project-team-9/assets/icon-sprite-cd4d49fe.svg#icon-right"></use>
+            </svg>
+          </button>
+        </div>
       </div>
       <p class="hero-rest-text text">
-        Whether you're in the mood for a hearty breakfast, a light lunch, or a
-        romantic dinner, our menu has something for everyone.
+        Whether you're in the mood for a hearty breakfast, a light lunch, or
+        <em>a romantic dinner,</em> our menu has something for everyone.
       </p>
-    </div>
-    <div class="hero-rest-cards">
-      <ul class="hero-rest-gallery list">
-        <li class="hero-rest-gallery-item item">
-          <picture>
-            <source srcset="" media="(min-width: 1440px)" />
-            <source srcset="" media="(min-width: 768px)" />
-            <source srcset="" media="(max-width: 767px)" />
-            <img src="" alt="" class="hero-gallery-picture" />
-          </picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-          <picture>
-            <source srcset="" media="(min-width: 1440px)" />
-            <source srcset="" media="(min-width: 768px)" />
-            <source srcset="" media="(max-width: 767px)" />
-            <img src="" alt="" class="hero-gallery-picture" />
-          </picture>
-        </li>
-        <!--картинки для слайду
-            <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=" "
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=" "
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=" "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=" "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=" "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=" "
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=" "
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset="
-                      "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=""
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset="
-                      "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
-        <li class="hero-rest-gallery-item item">
-                            <picture>
-                    <source
-                      srcset=" "
-                      media="(min-width: 1440px)"
-                    />
-                    <source
-                      srcset=" "
-                      media="(min-width: 768px)"
-                    />
-                    <source
-                      srcset=""
-                      media="(max-width: 767px)"
-                    />
-                    <img
-                      src=""
-                      alt=""
-                      class="hero-gallery-picture"
-                    /></picture>
-        </li>
--->
-      </ul>
-      <button class="hero-pre-btn btn" type="button">
-        <svg class="hero-pre-icons" width="7" height="14">
-          <use href=""></use>
-        </svg>
-      </button>
-      <button class="hero-next-btn btn" type="button">
-        <svg class="hero-next-icons" width="7" height="14">
-          <use href=""></use>
-        </svg>
-      </button>
     </div>
   </div>
 </section>
