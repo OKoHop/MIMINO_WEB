@@ -4,7 +4,8 @@
 }
 
 .hero-room-title {
-  margin-bottom: 32px;
+  max-width: 270px;
+  margin-bottom: 24px;
 
   font-weight: 400;
   font-size: 40px;
@@ -30,7 +31,7 @@
 
 .hero-room-cards {
   position: absolute;
-  top: 178px;
+  top: 218px;
   max-width: 355px;
 
   overflow: hidden;
@@ -75,13 +76,15 @@ img.hero-room-gallery-picture {
     padding-bottom: 40px;
   }
   .hero-room-title {
-    font-size: 80px;
+    margin-bottom: 18px;
+    max-width: 406px;
+    font-size: 60px;
   }
   .hero-room-btn-block {
-    margin-bottom: 642px;
+    margin-bottom: 616px;
   }
   .hero-room-cards {
-    top: 242px;
+    top: 246px;
     max-width: 732px;
   }
   .hero-room-gallery {
@@ -104,6 +107,7 @@ img.hero-room-gallery-picture {
     padding-bottom: 48px;
   }
   .hero-room-title {
+    margin-bottom: 32px;
     max-width: 592px;
     font-size: 80px;
   }
