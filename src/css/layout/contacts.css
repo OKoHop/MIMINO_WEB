@@ -19,8 +19,8 @@ box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 
 .map-icon-wrap{
    position: absolute;
-   left: 35%;
-   top: 39%;
+   left: 112px;
+   top: 166px;
    transform: translate(40%, 50%);
 }
 .map-icon{
@@ -76,8 +76,8 @@ box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
       
       .map-icon-wrap{
          position: absolute;
-         left: 46%;
-         top: 40%;
+         left: 304px;
+         top: 250px;
       
       }
       .map-icon{
@@ -129,7 +129,7 @@ box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
    .map-wrap{
    position: absolute;   
    top: 0;
-   left: 0;
+   left: 32px;
    }  
    .map-img{
       position: relative;   
@@ -141,8 +141,8 @@ box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
 
       .map-icon-wrap{
          position: absolute;
-         left: 43%;
-         top: 37%;
+         left: 274px;
+         top: 223px;
       
       } 
       
