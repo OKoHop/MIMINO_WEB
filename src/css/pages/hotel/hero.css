@@ -61,7 +61,9 @@ img.hero-hotel-gallery-picture {
 }
 
 .hero-hotel-icon-btn {
-  padding: 11px 15px;
+  width: 36px;
+  height: 36px;
+
   cursor: pointer;
 
   display: inline-block;
