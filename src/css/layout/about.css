@@ -158,6 +158,7 @@
   .pic-bathroom-img {
     width: 404px;
     height: 219px;
+    max-width: 404px;
       }
 
   .maria {
@@ -254,4 +255,10 @@
   .complex-text {
     width: 370px;
   }
+
+  .pic-bathroom-img {
+    width: 439px;
+    height: 219px;
+    max-width: 439px;
+      }
 }
