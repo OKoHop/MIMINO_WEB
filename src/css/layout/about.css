@@ -1,0 +1,251 @@
+@media screen and (min-width: 375px) {
+}
+.about-complex {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+.complex {
+  position: relative;
+}
+
+.chimney,
+.bathroom {
+  display: block;
+}
+
+.pic-chimney {
+  margin-bottom: 20px;
+}
+
+.maria {
+  width: 212px;
+  height: 61px;
+  background-color: #121212;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  position: absolute;
+  top: 420px;
+  left: 123px;
+}
+
+.maria-face {
+  margin: 10px 12px 10px 14px;
+  background-color: #121212;
+  /* border: 1px solid red; */
+}
+
+.name-rating {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  margin-top: 12px;
+}
+
+.maria-name {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1;
+  color: #f7f7f7;
+}
+
+.maria-rating {
+  font-size: 12px;
+  line-height: 1.33;
+  color: #575757;
+}
+
+.complex-text {
+  width: 335px;
+  margin-top: 32px;
+}
+.complex-title {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 18px;
+}
+.complex-text-top,
+.complex-text-bottom {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.complex-text-top {
+  margin-bottom: 14px;
+}
+
+.complex-text-bottom {
+  margin-bottom: 64px;
+}
+
+.business {
+  position: relative;
+  height: 818px;
+}
+
+.business-table-drinks {
+}
+
+.alex {
+  width: 212px;
+  height: 61px;
+  background-color: #121212;
+  box-shadow: 1px 7px 22px rgba(0, 0, 0, 0.1);
+  border-radius: 6px;
+  display: flex;
+  position: absolute;
+  top: 272px;
+}
+
+.alex-face {
+  margin: 10px 12px 10px 14px;
+  background-color: #121212;
+  /* border: 1px solid red; */
+}
+
+.business-old-hall {
+  position: absolute;
+  top: 509px;
+}
+
+.business-advert {
+  position: absolute;
+  top: 365px;
+}
+
+.business-title {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: #484848;
+  margin-bottom: 18px;
+}
+
+.business-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+@media screen and (min-width: 768px) {
+  .complex {
+    position: relative;
+  }
+
+  .pic-chimney {
+    width: 482px;
+    height: 636px;
+  }
+
+  .pic-bathroom-img {
+    position: absolute;
+    top: 209px;
+    left: 300px;
+  }
+
+  .maria {
+    position: absolute;
+    top: 176px;
+    left: 370px;
+  }
+
+  .complex-text-bottom {
+    margin-bottom: 80px;
+  }
+
+  .business {
+    position: relative;
+    height: 841px;
+  }
+
+  .business-table-drinks-img {
+    width: 530px;
+    height: 492px;
+    position: absolute;
+    left: 174px;
+  }
+
+  .alex {
+    position: absolute;
+    top: 303px;
+    left: 67px;
+  }
+
+  .business-old-hall-img {
+    width: 266px;
+    height: 309px;
+  }
+
+  .business-old-hall {
+    position: absolute;
+    top: 532px;
+    left: 0px;
+  }
+
+  .business-advert {
+    position: absolute;
+    top: 532px;
+    left: 298px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .complex {
+    height: 636px;
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .complex-text {
+    display: block;
+    position: absolute;
+    top: 199px;
+    left: 846px;
+  }
+
+  .maria {
+    top: 176px;
+    left: 370px;
+  }
+
+  .business {
+    position: relative;
+    height: 492px;
+  }
+
+  .business-table-drinks-img {
+    position: absolute;
+    left: 878px;
+  }
+
+  .alex {
+    top: 303px;
+    left: 771px;
+  }
+
+  .business-old-hall {
+    position: absolute;
+    top: 127px;
+    left: 208px;
+  }
+
+  .business-advert {
+    left: 528px;
+    top: 127px;
+  }
+
+  .complex-text {
+    width: 370px;
+  }
+}
