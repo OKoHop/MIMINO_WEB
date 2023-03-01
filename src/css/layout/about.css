@@ -201,4 +201,57 @@ left: 50;
   top: 532px; 
     left: 298px;   
 }
+
+}
+
+@media screen and (min-width: 1440px) {
+  .complex {
+    height: 636px; 
+    width: 100%;
+    margin-bottom: 100px;
+  }
+
+  .complex-text {
+    display: block;
+    position: absolute;
+    top: 199px;
+    left: 846px;
+  }
+
+  .maria {
+    top: 176px;
+    left: 370px;
+  }
+
+  .business {
+    position: relative;
+    height: 492px;
+  }
+
+  .business-table-drinks-img {
+    position: absolute;
+    left: 878px;
+  }
+
+  .alex {
+    top: 303px;
+    left: 771px;
+  }
+
+  
+ .business-old-hall {
+   position: absolute;
+    top: 127px; 
+    left: 208px; 
+    }
+
+   .business-advert {
+    left: 528px;
+    top: 127px;
+   }
+
+   .complex-text {
+    width: 370px;
+   }
+
 }
