@@ -1,39 +1,45 @@
 <section class="section-contacts section">
-    <div class="container">
+    <div class="container container-contacts">
         <h2 class="title title-contacts">Location</h2>
-        <div class="map-wrapper">
+        <div class="map-wrap">
             <picture>
                 <source
-                srcset="../img/desktop/main-welcome-map/map-desktop.jpg 1x, ../img/desktop/main-welcome-map/map-desktop@2x.jpg 2x"
+                srcset="/img/desktop/main-welcome-map/map-desktop.jpg 1x, /img/desktop/main-welcome-map/map-desktop@2x.jpg 2x"
                 media="(min-width: 1440px)"
                 />
                 <source
-                srcset="../img/tablet/main-welcome-map/map-tablet.jpg 1x, ../img/tablet/main-welcome-map/map-tablet@2x.jpg 2x"
+                srcset="/img/tablet/main-welcome-map/map-tablet.jpg 1x, /img/tablet/main-welcome-map/map-tablet@2x.jpg 2x"
                 media="(min-width: 768px)"
                 />
                 <source
-                srcset="../img/mobile/main-welcome-map/map-mobile.jpg 1x, ../img/mobile/main-welcome-map/map-mobile@2x.jpg 2x"
+                srcset="/img/mobile/main-welcome-map/map-mobile.jpg 1x, /img/mobile/main-welcome-map/map-mobile@2x.jpg 2x"
                 media="(min-width: 375px)"
                 />
                 <img
-                class="contacts-map-img" 
-                src="../img/mobile/main-welcome-map/map-mobile.jpg" 
+                class="map-img" 
+                src="/img/mobile/main-welcome-map/map-mobile.jpg" 
                 alt="map">
             </picture>
+            <div class="map-icon-wrap">
+                <svg class="map-icon" >
+                    <use href="/img/icon-sprite.svg#icon-map2" ></use>
+                </svg>
+    </div>
         </div>
-        <div class="contact-info-wrapper">
-            <address class="address">
-                <div class="address-text">
-                    Ukraine, Poltava, St. Marshal Biryuzov, 15
-                </div>
-                <div class="phones">
-                    <p>call us:</p>
-                    <ul class="address-list list">
-                        <li class="item address-item"><a class="address-tel link" href="tel:0955559533">(095) 555 95 33</a></li>
-                        <li class="item address-item"><a class="address-tel link" href="tel:0668491089">(066) 849 10 89</a></li>
+        <div class="contacts-info-wrap">
+            <address class="contacts-address">
+                    Ukraine, Poltava,<br> St. Marshal Biryuzov, 15
+            </address>
+                <div class="phones-wrap">
+                    <p class="phones-text">call us:</p>
+                    <ul class="phones-list list">
+                        <li class="item phones-item">
+                            <a class="phones-tel link" href="tel:0955559533">(095) 555 95 33</a>
+                        </li>
+                        <li class="item phones-item">
+                            <a class="phones-tel link" href="tel:0668491089">(066) 849 10 89</a>
+                        </li>
                     </ul>
                 </div>
-            </address>
-        </div>
     </div>
 </section>
