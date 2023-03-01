@@ -1,0 +1,198 @@
+.hero{
+    background-color: var(--brand-color);
+}
+
+
+.hero-container{
+    height: 909px;
+    max-width: 100%;
+    background-color:var(--brand-color);
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
+    url(../../img/mobile/main-hotel-hero/hero-mobile.jpg);
+    background-size: 335px 439px;
+    background-repeat: no-repeat;
+    background-position: center 118px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+(-webkit-min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+
+.hero-container{
+    background-image:linear-gradient(180deg, rgba(0, 0, 0, 0) 70.73%, #121212 98.51%),
+    url(../../img/mobile/main-hotel-hero/hero-mobile@2x.jpg);
+}
+    }
+
+    @media screen and (min-width:768px){
+.hero-container{
+    max-width: 100%;
+    height: 1024px;
+    background-image:
+    url(../../img/tablet/main-hotel-hero/hero-tablet.jpg);
+    background-size: 542px 710px;
+    background-position: center 128px;
+    }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+    .hero-container{
+        background-image:
+        url(../../img/tablet/main-hotel-hero/hero-tablet@2x.jpg);
+}
+        }
+}
+
+@media screen and (min-width:1440px){
+    .hero-container{
+        max-width: 100%;
+        height:770px;
+        background-image:
+        url(../../img/desktop/main-hotel-hero/hero-desktop.jpg);
+        background-size: 542px 770px;
+        background-position: top right;
+        
+        
+        padding: 0;
+        }
+
+    @media screen and (min-device-pixel-ratio: 2),
+    (-webkit-min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+.hero-container{
+    background-image:
+    url(../../img/desktop/main-hotel-hero/hero-desktop@2x.jpg);
+}
+    }
+}
+
+/* =====HERO-BLOCk===== */
+
+@media screen and (max-width:767px){
+.hero-block{
+    padding-top: 507px;
+    margin-bottom: 40px;
+}
+}
+
+@media screen and (min-width:768px) and (max-width:1439px){
+.hero-block{
+    padding-top: 606px;
+    margin-bottom: 38px;
+    }
+}
+
+@media screen and (min-width:1440px){
+    .hero-block{
+        padding-top: 274px;
+        }
+    }
+
+
+/* ===Title =============*/
+
+.hero-title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+    
+    text-transform: uppercase;
+    color: var(--secons-brand-color);
+
+    margin-bottom: 24px;
+}
+
+@media screen and (min-width:768px){
+.hero-title{
+    font-weight: 530px;
+    font-size: 150px;
+    margin-bottom: 32px;
+    }
+}
+    
+    @media screen and (min-width:1440px){
+
+    .hero-title{
+    text-align: left;
+    font-size: 180px;
+    margin-bottom: 196px;
+
+}
+    }
+
+/* =====Btn-Hero====== */
+
+.hero-btn-block{
+    display: flex;
+    justify-content: center;
+    gap: 14px;
+    margin-bottom: 66px;
+}
+@media screen and (min-width:768px) and (max-width:1439px){
+    .hero-btn-block{
+    margin-bottom: 76px;
+}
+}
+
+@media screen and (min-width:1440px){
+    .hero-btn-block{
+        margin-left: 275px;
+
+    }
+
+}
+
+/* ===Hero-Text=============*/
+
+.text{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-text{
+    max-width: 338px;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--secons-brand-color);
+}
+
+.hero-text > span{
+font-style: oblique;
+}
+
+@media screen and (max-width:767px){
+.hero-text:not(:last-child){
+    margin-bottom: 32px;
+}
+}
+
+@media screen and (min-width:768px){
+.text{
+    gap: 32px;
+    }
+
+.text-two{
+    width: 314px;
+    }
+}
+
+/* =====Tumb====== */
+.tumb{
+    display: flex;
+}
+
+@media screen and (max-width:1439px){
+    .tumb{
+        
+        flex-direction: column-reverse;
+        
+    }
+}

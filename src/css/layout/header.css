@@ -1,8 +1,13 @@
 .header {
+  position: absolute;
+  width: 100%;
   padding: 20px 0;
-  background-color: #FFFFFF;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
   height: 78px;
+}
+
+.header-main-page {
+  border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
 }
 
 .header .container {
@@ -53,9 +58,7 @@
   display: inline-block;
 }
 
-.main-active .header {
-  background-color: var(--brand-color);
-}
+
 
 .main-active .header .nav-link,
 .main-active .header .logo-text {
@@ -130,6 +133,14 @@
     justify-content: flex-end;
     flex-direction: row;
   }
+
+  @media screen and (max-width: 768px){
+    .main-active .header {
+      background-color: var(--brand-color);
+    }
+  
+  }
+
   
 }
 
