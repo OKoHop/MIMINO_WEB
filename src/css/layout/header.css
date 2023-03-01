@@ -4,10 +4,12 @@
   padding: 20px 0;
   border-bottom: 0.5px solid rgba(18, 18, 18, 0.3);
   height: 78px;
+  background-color: #fff;
 }
 
 .header-main-page {
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
+  background-color: transparent;
 }
 
 .header .container {
