@@ -28,6 +28,10 @@
   text-transform: uppercase;
 }
 
+.hero-rest-text > span {
+  font-style: oblique;
+}
+
 .hero-rest-cards {
   position: absolute;
   top: 178px;
@@ -57,6 +61,11 @@ img.hero-rest-gallery-picture {
 }
 
 .hero-rest-icon-btn {
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+
   display: inline-block;
   stroke: var(--brand-color);
   fill: transparent;
