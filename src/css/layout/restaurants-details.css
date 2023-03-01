@@ -1,0 +1,126 @@
+.rest-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+  .rest-letters {
+  
+}
+
+.rest-title {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 1;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 24px;
+}
+
+.rest-text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  text-transform: uppercase;
+  color: #121212;
+  margin-bottom: 32px;
+  max-width: 230px;
+}
+
+.rest-pics-list {
+  margin: 0px;
+  padding: 0px;
+   display: flex; 
+  justify-content: space-between;
+  margin-bottom: 82px;
+  }
+
+  
+
+
+.rest-pics-item {
+  display:block;
+  margin: 0px;
+  padding: 0px;
+}
+
+.glass {
+ max-width: 157px;
+ height: 201px; 
+ }
+
+
+
+
+.hotdogs {
+  display: none;
+}
+
+.bottle {
+  display: none;
+}
+
+.salmon {
+  display: none;
+}
+
+.rest-menu {
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .rest-letters {
+    display: flex;
+    gap: 32px;
+  }
+
+.cocktail-glass, .expert-cooker {
+ min-width: 336px;
+ height: 309px; 
+ }
+
+}
+
+@media screen and (min-width: 1440px) {
+
+ .rest-title {
+font-weight: 500;
+font-size: 68px;
+line-height: 1;
+letter-spacing: -0.02em;
+ }
+
+  .rest-letters {
+    align-items: center;
+    margin-bottom: 132px;
+  }
+
+  .hotdogs, .bottle, .salmon {
+  display: block;
+}
+
+ .cocktail-glass, .hot-dogs, .vine-bottle,
+ .expert-cooker, .baked-salmon {
+  min-width: 266px;
+ height: 309px; 
+ }
+
+ .rest-pics-list {
+  justify-content: start;
+  gap: 32px;
+ }
+
+.rest-details> .container {
+  position: relative;
+    }
+
+  .rest-buttons {
+  position: absolute;
+  top: 0px;
+  left: 1000px;
+  }
+
+  
+}
