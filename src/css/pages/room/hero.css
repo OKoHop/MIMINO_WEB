@@ -24,7 +24,7 @@
 
 .hero-room-text {
   letter-spacing: 0.05em;
-  max-width: 335px;
+  max-width: 289px;
   text-transform: uppercase;
 }
 
@@ -101,17 +101,18 @@ img.hero-room-gallery-picture {
 @media screen and (min-width: 1440px) {
   .hero-room {
     padding-top: 204px;
-    padding-bottom: 30px;
+    padding-bottom: 48px;
   }
   .hero-room-title {
-    font-size: 90px;
+    max-width: 592px;
+    font-size: 80px;
   }
   .hero-room-btn-block {
-    margin-bottom: 204px;
+    margin-bottom: 169px;
   }
   .hero-room-cards {
     top: 30px;
-    left: 737px;
+    right: 0;
     max-width: 703px;
   }
   .hero-room-gallery {
