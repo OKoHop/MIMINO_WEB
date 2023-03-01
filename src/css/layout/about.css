@@ -9,7 +9,7 @@
 }
 
 .chimney,
-.bathroom {
+.bathroom-about {
   display: block;
 }
 
@@ -148,7 +148,7 @@
     height: 636px;
   }
 
-  .bathroom {
+  .bathroom-about {
     position: absolute;
     top: 209px;
     left: 300px;
