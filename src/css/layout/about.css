@@ -148,11 +148,17 @@
     height: 636px;
   }
 
-  .pic-bathroom-img {
+  .bathroom {
     position: absolute;
     top: 209px;
     left: 300px;
+    
   }
+
+  .pic-bathroom-img {
+    width: 404px;
+    height: 219px;
+      }
 
   .maria {
     position: absolute;
