@@ -12,7 +12,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
   
   <script type="module" crossorigin src="/project-team-9/assets/mobile-menu-384ad442.js"></script>
-  <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-adbd7674.css">
+  <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-45db0fd6.css">
 </head>
 
 <body class="main-active">
@@ -128,36 +128,70 @@
       </div>
     </div>
     </section>
-    <section class="about">
+    <section class="about-complex">
   <h2 class="visually-hidden">About a complex</h2>
   <div class="container">
     <div class="complex">
-
-      <ul class="complex-pics-list list">
-        <li class="complex-pics-item">
-          <picture class="chimney">
-            <source srcset="/project-team-9/assets/about-complex2-desktop-3883f026.jpg 1x, /project-team-9/assets/about-complex2-desktop@2x-7eef49bf.jpg 2x" media="(min-width: 1440px)" />
-            <source srcset="/project-team-9/assets/about-complex2-desktop-3883f026.jpg 1x, /project-team-9/assets/about-complex2-desktop@2x-7eef49bf.jpg 2x" media="(min-width: 768px)" />
-            <source srcset="/project-team-9/assets/about-complex2-mobile-2e799337.jpg 1x, /project-team-9/assets/about-complex2-mobile@2x-eab36e86.jpg 2x" media="(min-width: 375px)" />
-            <img src="/project-team-9/assets/about-complex2-mobile-2e799337.jpg" alt="marias-chimney" width="335"
-              height="442" />
-          </picture>
-        </li>
-        <li class="complex-pics-item">
-          <picture class="bathroom">
-            <source srcset="/project-team-9/assets/about-complex1-desktop-66cb17d4.jpg 1x, /project-team-9/assets/about-complex1-desktop@2x-3f313c27.jpg 2x" media="(min-width: 1440px)" />
-            <source srcset="/project-team-9/assets/about-complex1-tablet-8faf218b.jpg 1x, /project-team-9/assets/about-complex1-tablet@2x-73f43fb8.jpg 2x" media="(min-width: 768px)" />
-            <source srcset="/project-team-9/assets/about-complex1-mobile-a1062442.jpg 1x, /project-team-9/assets/about-complex1-mobile@2x-61a1ba4e.jpg 2x" media="(min-width: 375px)" />
-            <img src="/project-team-9/assets/about-complex1-mobile-a1062442.jpg" alt="marias-bathroom" width="282"
-              height="153" />
-          </picture>
-        </li>
-      </ul>
+      <!-- <ul class="complex-pics-list list"> -->
+      <!-- <li class="complex-pics-item"> -->
+      <picture class="chimney">
+        <source
+          srcset="/project-team-9/assets/about-complex2-desktop-3883f026.jpg 1x, /project-team-9/assets/about-complex2-desktop@2x-7eef49bf.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex2-desktop-3883f026.jpg 1x, /project-team-9/assets/about-complex2-desktop@2x-7eef49bf.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex2-mobile-2e799337.jpg 1x, /project-team-9/assets/about-complex2-mobile@2x-eab36e86.jpg 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          class="pic-chimney"
+          src="/project-team-9/assets/about-complex2-mobile-2e799337.jpg"
+          alt="marias-chimney"
+          width="335"
+          height="442"
+        />
+      </picture>
+      <!-- </li> -->
+      <!-- <li class="complex-pics-item"> -->
+      <!-- <div class="pic-bathroom"> -->
+      <picture class="bathroom">
+        <source
+          srcset="/project-team-9/assets/bath-desktop-1x-e595b274.jpg 1x, /project-team-9/assets/bath-desktop-2x-9fbb7f6f.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-team-9/assets/bath-tablet-1x-171f883f.jpg 1x, /project-team-9/assets/bath-tablet-2x-f4c3b7e8.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-team-9/assets/bath-mobile-1x-ab5e4b67.jpg 1x, /project-team-9/assets/bath-mobile-1x-ab5e4b67.jpg 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          src="/project-team-9/assets/bath-mobile-1x-ab5e4b67.jpg"
+          alt="marias-bathroom"
+          width="282"
+          height="153"
+          class="pic-bathroom-img"
+        />
+      </picture>
+      <!-- </div> -->
+      <!-- </li> -->
+      <!-- </ul> -->
 
       <div class="maria">
-        <img class="maria-face" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAvAAEAAwEBAAAAAAAAAAAAAAAGBAUHAAMBAQEBAQEAAAAAAAAAAAAAAAQDAgAF/9oADAMBAAIQAxAAAADAr6IsnVIH2PMYoDRWFDaU5uCsc9tpb3DnZEtjtNs0a7PoUHch9sxQrquB3M8//8QANBAAAgEDAQUDCQkAAAAAAAAAAQIDAAQRBQYSITFREBNCBxQ1QVNhcbLRFSIyc4GDkZKh/9oACAEBAAE/AI0LsAKsbBpbuC3tk3pHOFzUvk8mS272K9U3HMp4audPEjyQzR7kyZB6grV1aSWz4YfdPI9kUOIVHiDZPxrZZbiK4ub2MZ7tN0EAOVyeeK0nWNTuLG8lkYsyIDFvRhTx4DIFa1dO98ty7u0xbdkygjGRVzFHJwdz3EnTn8K+yb/2Q/un1pQQGY8gM1sBO8VxeIOTFTVzqSW16Ize2CCYBZBISCFryhSKLOEDu2LeJa08NNZzIzKO74rnqOlec6l1H8rT3CSxjGAMAsACOPQZJrSdTl024WQKSCuHHuqPVNCcRXMj3Cn144D9a2h1uPUb+JIUItonGAfXU5ihyQ+IxGCAPFnnXn8ns4/9+tRSmNh06VAkt1umJd/lvY44pdOcWu6VxkAmpNyO5uBLlUFXl3vkxRHEQ4ZHj957dlfT9j+58hq5/C3wFbUekU/JHzHt/8QAHxEBAQACAgEFAAAAAAAAAAAAAQIAIQMRBBIxQlFy/9oACAECAQE/ALrS5F20neTyHyQy5WKD3zjKbNOneXwnI9+mX9GXqV+jPGppocDrP//EAB8RAAICAQQDAAAAAAAAAAAAAAECAAMREiExQQRRcv/aAAgBAwEBPwBFywB7jpWFBAl1QXSyZ0t1yRKnVbFJ4l7IKzvuRiC3QAMuPlsSvdlX2QJ5SBFUjqE5n//Z" alt="marias-face"
-          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAvAAEAAwEBAAAAAAAAAAAAAAAGBAUHAAMBAQEBAQEAAAAAAAAAAAAAAAQDAgAF/9oADAMBAAIQAxAAAADAr6IsnVIH2PMYoDRWFDaU5uCsc9tpb3DnZEtjtNs0a7PoUHch9sxQrquB3M8//8QANBAAAgEDAQUDCQkAAAAAAAAAAQIDAAQRBQYSITFREBNCBxQ1QVNhcbLRFSIyc4GDkZKh/9oACAEBAAE/AI0LsAKsbBpbuC3tk3pHOFzUvk8mS272K9U3HMp4audPEjyQzR7kyZB6grV1aSWz4YfdPI9kUOIVHiDZPxrZZbiK4ub2MZ7tN0EAOVyeeK0nWNTuLG8lkYsyIDFvRhTx4DIFa1dO98ty7u0xbdkygjGRVzFHJwdz3EnTn8K+yb/2Q/un1pQQGY8gM1sBO8VxeIOTFTVzqSW16Ize2CCYBZBISCFryhSKLOEDu2LeJa08NNZzIzKO74rnqOlec6l1H8rT3CSxjGAMAsACOPQZJrSdTl024WQKSCuHHuqPVNCcRXMj3Cn144D9a2h1uPUb+JIUItonGAfXU5ihyQ+IxGCAPFnnXn8ns4/9+tRSmNh06VAkt1umJd/lvY44pdOcWu6VxkAmpNyO5uBLlUFXl3vkxRHEQ4ZHj957dlfT9j+58hq5/C3wFbUekU/JHzHt/8QAHxEBAQACAgEFAAAAAAAAAAAAAQIAIQMRBBIxQlFy/9oACAECAQE/ALrS5F20neTyHyQy5WKD3zjKbNOneXwnI9+mX9GXqV+jPGppocDrP//EAB8RAAICAQQDAAAAAAAAAAAAAAECAAMREiExQQRRcv/aAAgBAwEBPwBFywB7jpWFBAl1QXSyZ0t1yRKnVbFJ4l7IKzvuRiC3QAMuPlsSvdlX2QJ5SBFUjqE5n//Z 1x, data:image/jpeg;base64,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 2x" width="41" height="41" />
-
+        <img
+          class="maria-face"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAvAAEAAwEBAAAAAAAAAAAAAAAGBAUHAAMBAQEBAQEAAAAAAAAAAAAAAAQDAgAF/9oADAMBAAIQAxAAAADAr6IsnVIH2PMYoDRWFDaU5uCsc9tpb3DnZEtjtNs0a7PoUHch9sxQrquB3M8//8QANBAAAgEDAQUDCQkAAAAAAAAAAQIDAAQRBQYSITFREBNCBxQ1QVNhcbLRFSIyc4GDkZKh/9oACAEBAAE/AI0LsAKsbBpbuC3tk3pHOFzUvk8mS272K9U3HMp4audPEjyQzR7kyZB6grV1aSWz4YfdPI9kUOIVHiDZPxrZZbiK4ub2MZ7tN0EAOVyeeK0nWNTuLG8lkYsyIDFvRhTx4DIFa1dO98ty7u0xbdkygjGRVzFHJwdz3EnTn8K+yb/2Q/un1pQQGY8gM1sBO8VxeIOTFTVzqSW16Ize2CCYBZBISCFryhSKLOEDu2LeJa08NNZzIzKO74rnqOlec6l1H8rT3CSxjGAMAsACOPQZJrSdTl024WQKSCuHHuqPVNCcRXMj3Cn144D9a2h1uPUb+JIUItonGAfXU5ihyQ+IxGCAPFnnXn8ns4/9+tRSmNh06VAkt1umJd/lvY44pdOcWu6VxkAmpNyO5uBLlUFXl3vkxRHEQ4ZHj957dlfT9j+58hq5/C3wFbUekU/JHzHt/8QAHxEBAQACAgEFAAAAAAAAAAAAAQIAIQMRBBIxQlFy/9oACAECAQE/ALrS5F20neTyHyQy5WKD3zjKbNOneXwnI9+mX9GXqV+jPGppocDrP//EAB8RAAICAQQDAAAAAAAAAAAAAAECAAMREiExQQRRcv/aAAgBAwEBPwBFywB7jpWFBAl1QXSyZ0t1yRKnVbFJ4l7IKzvuRiC3QAMuPlsSvdlX2QJ5SBFUjqE5n//Z"
+          alt="marias-face"
+          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAvAAEAAwEBAAAAAAAAAAAAAAAGBAUHAAMBAQEBAQEAAAAAAAAAAAAAAAQDAgAF/9oADAMBAAIQAxAAAADAr6IsnVIH2PMYoDRWFDaU5uCsc9tpb3DnZEtjtNs0a7PoUHch9sxQrquB3M8//8QANBAAAgEDAQUDCQkAAAAAAAAAAQIDAAQRBQYSITFREBNCBxQ1QVNhcbLRFSIyc4GDkZKh/9oACAEBAAE/AI0LsAKsbBpbuC3tk3pHOFzUvk8mS272K9U3HMp4audPEjyQzR7kyZB6grV1aSWz4YfdPI9kUOIVHiDZPxrZZbiK4ub2MZ7tN0EAOVyeeK0nWNTuLG8lkYsyIDFvRhTx4DIFa1dO98ty7u0xbdkygjGRVzFHJwdz3EnTn8K+yb/2Q/un1pQQGY8gM1sBO8VxeIOTFTVzqSW16Ize2CCYBZBISCFryhSKLOEDu2LeJa08NNZzIzKO74rnqOlec6l1H8rT3CSxjGAMAsACOPQZJrSdTl024WQKSCuHHuqPVNCcRXMj3Cn144D9a2h1uPUb+JIUItonGAfXU5ihyQ+IxGCAPFnnXn8ns4/9+tRSmNh06VAkt1umJd/lvY44pdOcWu6VxkAmpNyO5uBLlUFXl3vkxRHEQ4ZHj957dlfT9j+58hq5/C3wFbUekU/JHzHt/8QAHxEBAQACAgEFAAAAAAAAAAAAAQIAIQMRBBIxQlFy/9oACAECAQE/ALrS5F20neTyHyQy5WKD3zjKbNOneXwnI9+mX9GXqV+jPGppocDrP//EAB8RAAICAQQDAAAAAAAAAAAAAAECAAMREiExQQRRcv/aAAgBAwEBPwBFywB7jpWFBAl1QXSyZ0t1yRKnVbFJ4l7IKzvuRiC3QAMuPlsSvdlX2QJ5SBFUjqE5n//Z 1x, data:image/jpeg;base64,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 2x"
+          width="41"
+          height="41"
+        />
 
         <div class="name-rating">
           <p class="maria-name">Maria</p>
@@ -167,30 +201,52 @@
 
       <div class="complex-text">
         <h3 class="complex-title">restaurant-hotel complex</h3>
-        <p class="complex-text-top">Indulge in a taste of luxury with every bite at
-          Hotel Mimino. From the freshest seafood to
-          the most succulent steaks, every dish is
-          crafted with care to ensure that you enjoy
-          a truly memorable dining experience.
-          <p class="complex-text-bottom">Treat yourself to a taste of the good life
-            and come dine with us today!</p>
+        <p class="complex-text-top">
+          Indulge in a taste of luxury with every bite at Hotel Mimino. From the
+          freshest seafood to the most succulent steaks, every dish is crafted
+          with care to ensure that you enjoy a truly memorable dining
+          experience.
+        </p>
+
+        <p class="complex-text-bottom">
+          Treat yourself to a taste of the good life and come dine with us
+          today!
+        </p>
       </div>
     </div>
     <!-- ------------------------ -->
     <div class="business">
-
       <picture class="business-table-drinks">
-        <source srcset="/project-team-9/assets/about-complex5-desktop-64ce511e.jpg 1x, /project-team-9/assets/about-complex5-desktop@2x-4c12f1b3.jpg 2x" media="(min-width: 1440px)" />
-        <source srcset="/project-team-9/assets/about-complex5-desktop-64ce511e.jpg 1x, /project-team-9/assets/about-complex5-desktop@2x-4c12f1b3.jpg 2x" media="(min-width: 768px)" />
-        <source srcset="/project-team-9/assets/about-complex5-mobile-466cc15b.jpg 1x, /project-team-9/assets/about-complex5-mobile@2x-95d1b931.jpg 2x" media="(min-width: 375px)" />
-        <img src="/project-team-9/assets/about-complex5-mobile-466cc15b.jpg" alt="table drinks" width="335"
-          height="311" />
+        <source
+          srcset="/project-team-9/assets/about-complex5-desktop-64ce511e.jpg 1x, /project-team-9/assets/about-complex5-desktop@2x-4c12f1b3.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex5-desktop-64ce511e.jpg 1x, /project-team-9/assets/about-complex5-desktop@2x-4c12f1b3.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex5-mobile-466cc15b.jpg 1x, /project-team-9/assets/about-complex5-mobile@2x-95d1b931.jpg 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          src="/project-team-9/assets/about-complex5-mobile-466cc15b.jpg"
+          alt="table drinks"
+          width="335"
+          height="311"
+          class="business-table-drinks-img"
+        />
       </picture>
 
       <div class="alex">
-        <img class="alex-face" src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAyAAABBQEBAQAAAAAAAAAAAAAHAAMEBQgCBgEBAAMBAQAAAAAAAAAAAAAAAAIDBAAB/9oADAMBAAIQAxAAAAAC3RiqaJR/F7PK2Zpj6tBoHp2g8mNjVZGkCNyXalfCPjKox18aS3SOE3zSYqRb/8QANxAAAgEDAgMDBwwDAAAAAAAAAQIDBBESAAUGEyEQIkEHFyMxUWGRFRYyQlJTVWJjZHFyk6PS/9oACAEBAAE/AIYHmJxHQC5Ps1TUYRQ2Pt/tpKR1k73QkEgeNvcNVEMbWV48j4EdDqogaFvy+HZR8C7Ht2xUY3Od4q8pnKMvrnwxF9PsFBS7VXbi7zNFDCWX0RCuT0UEtqmod15grpdvkmQm93uNbHwjwtu2109c1O5LZZqJHtmNTeTvheeCaFaORA6Y5CRrr7xrzacb/g/++H/vUqUrklb5HoTjrf6Onn2euokznmki7sAezHE5dBr5A2yXuLJUmF3EnOyFl1w5DS7XtJRmWlheVniZyATn1y0ytyFvWsCCDzLKLj4W1zY/vV+OoeN6STZINznIPLRcxGSPTW6oAdbr5Q96rHYUZFHH+n1c/wAtrbH2eWlWrnSbmp9JVcCMsPEg9dU3G9dTyzZwwzwPOXCyIGKX+zfXzv3mbapdypquI0cSekDAAqR4a863FP7T/FoTzCHkcxuVnnhfu5Wte3t0DoOwUqCbH19i1tUlPPTRzusExUyxg2V8OoyHjbtHYfX2/wD/xAAdEQEAAwABBQAAAAAAAAAAAAABAAIRAxATITFR/9oACAECAQE/AOOtM1Z3K2XxElkK5vsnEXL7ZciH2PX/xAAfEQEBAAECBwAAAAAAAAAAAAABAgAREgMEEyAhMUL/2gAIAQMBAT8A4l21tDOnUBk1qecgWtdvpzmKhgIDXJV+ez//2Q==" alt="alexanders face"
-          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAyAAABBQEBAQAAAAAAAAAAAAAHAAMEBQgCBgEBAAMBAQAAAAAAAAAAAAAAAAIDBAAB/9oADAMBAAIQAxAAAAAC3RiqaJR/F7PK2Zpj6tBoHp2g8mNjVZGkCNyXalfCPjKox18aS3SOE3zSYqRb/8QANxAAAgEDAgMDBwwDAAAAAAAAAQIDBBESAAUGEyEQIkEHFyMxUWGRFRYyQlJTVWJjZHFyk6PS/9oACAEBAAE/AIYHmJxHQC5Ps1TUYRQ2Pt/tpKR1k73QkEgeNvcNVEMbWV48j4EdDqogaFvy+HZR8C7Ht2xUY3Od4q8pnKMvrnwxF9PsFBS7VXbi7zNFDCWX0RCuT0UEtqmod15grpdvkmQm93uNbHwjwtu2109c1O5LZZqJHtmNTeTvheeCaFaORA6Y5CRrr7xrzacb/g/++H/vUqUrklb5HoTjrf6Onn2euokznmki7sAezHE5dBr5A2yXuLJUmF3EnOyFl1w5DS7XtJRmWlheVniZyATn1y0ytyFvWsCCDzLKLj4W1zY/vV+OoeN6STZINznIPLRcxGSPTW6oAdbr5Q96rHYUZFHH+n1c/wAtrbH2eWlWrnSbmp9JVcCMsPEg9dU3G9dTyzZwwzwPOXCyIGKX+zfXzv3mbapdypquI0cSekDAAqR4a863FP7T/FoTzCHkcxuVnnhfu5Wte3t0DoOwUqCbH19i1tUlPPTRzusExUyxg2V8OoyHjbtHYfX2/wD/xAAdEQEAAwABBQAAAAAAAAAAAAABAAIRAxATITFR/9oACAECAQE/AOOtM1Z3K2XxElkK5vsnEXL7ZciH2PX/xAAfEQEBAAECBwAAAAAAAAAAAAABAgAREgMEEyAhMUL/2gAIAQMBAT8A4l21tDOnUBk1qecgWtdvpzmKhgIDXJV+ez//2Q== 1x, data:image/jpeg;base64,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 2x" width="41" height="41" />
-
+        <img
+          class="alex-face"
+          src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAyAAABBQEBAQAAAAAAAAAAAAAHAAMEBQgCBgEBAAMBAQAAAAAAAAAAAAAAAAIDBAAB/9oADAMBAAIQAxAAAAAC3RiqaJR/F7PK2Zpj6tBoHp2g8mNjVZGkCNyXalfCPjKox18aS3SOE3zSYqRb/8QANxAAAgEDAgMDBwwDAAAAAAAAAQIDBBESAAUGEyEQIkEHFyMxUWGRFRYyQlJTVWJjZHFyk6PS/9oACAEBAAE/AIYHmJxHQC5Ps1TUYRQ2Pt/tpKR1k73QkEgeNvcNVEMbWV48j4EdDqogaFvy+HZR8C7Ht2xUY3Od4q8pnKMvrnwxF9PsFBS7VXbi7zNFDCWX0RCuT0UEtqmod15grpdvkmQm93uNbHwjwtu2109c1O5LZZqJHtmNTeTvheeCaFaORA6Y5CRrr7xrzacb/g/++H/vUqUrklb5HoTjrf6Onn2euokznmki7sAezHE5dBr5A2yXuLJUmF3EnOyFl1w5DS7XtJRmWlheVniZyATn1y0ytyFvWsCCDzLKLj4W1zY/vV+OoeN6STZINznIPLRcxGSPTW6oAdbr5Q96rHYUZFHH+n1c/wAtrbH2eWlWrnSbmp9JVcCMsPEg9dU3G9dTyzZwwzwPOXCyIGKX+zfXzv3mbapdypquI0cSekDAAqR4a863FP7T/FoTzCHkcxuVnnhfu5Wte3t0DoOwUqCbH19i1tUlPPTRzusExUyxg2V8OoyHjbtHYfX2/wD/xAAdEQEAAwABBQAAAAAAAAAAAAABAAIRAxATITFR/9oACAECAQE/AOOtM1Z3K2XxElkK5vsnEXL7ZciH2PX/xAAfEQEBAAECBwAAAAAAAAAAAAABAgAREgMEEyAhMUL/2gAIAQMBAT8A4l21tDOnUBk1qecgWtdvpzmKhgIDXJV+ez//2Q=="
+          alt="alexanders face"
+          srcset="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAgICAgJCAkKCgkNDgwODRMREBARExwUFhQWFBwrGx8bGx8bKyYuJSMlLiZENS8vNUROQj5CTl9VVV93cXecnNEBCAgICAkICQoKCQ0ODA4NExEQEBETHBQWFBYUHCsbHxsbHxsrJi4lIyUuJkQ1Ly81RE5CPkJOX1VVX3dxd5yc0f/CABEIACkAKQMBIgACEQEDEQH/xAAyAAABBQEBAQAAAAAAAAAAAAAHAAMEBQgCBgEBAAMBAQAAAAAAAAAAAAAAAAIDBAAB/9oADAMBAAIQAxAAAAAC3RiqaJR/F7PK2Zpj6tBoHp2g8mNjVZGkCNyXalfCPjKox18aS3SOE3zSYqRb/8QANxAAAgEDAgMDBwwDAAAAAAAAAQIDBBESAAUGEyEQIkEHFyMxUWGRFRYyQlJTVWJjZHFyk6PS/9oACAEBAAE/AIYHmJxHQC5Ps1TUYRQ2Pt/tpKR1k73QkEgeNvcNVEMbWV48j4EdDqogaFvy+HZR8C7Ht2xUY3Od4q8pnKMvrnwxF9PsFBS7VXbi7zNFDCWX0RCuT0UEtqmod15grpdvkmQm93uNbHwjwtu2109c1O5LZZqJHtmNTeTvheeCaFaORA6Y5CRrr7xrzacb/g/++H/vUqUrklb5HoTjrf6Onn2euokznmki7sAezHE5dBr5A2yXuLJUmF3EnOyFl1w5DS7XtJRmWlheVniZyATn1y0ytyFvWsCCDzLKLj4W1zY/vV+OoeN6STZINznIPLRcxGSPTW6oAdbr5Q96rHYUZFHH+n1c/wAtrbH2eWlWrnSbmp9JVcCMsPEg9dU3G9dTyzZwwzwPOXCyIGKX+zfXzv3mbapdypquI0cSekDAAqR4a863FP7T/FoTzCHkcxuVnnhfu5Wte3t0DoOwUqCbH19i1tUlPPTRzusExUyxg2V8OoyHjbtHYfX2/wD/xAAdEQEAAwABBQAAAAAAAAAAAAABAAIRAxATITFR/9oACAECAQE/AOOtM1Z3K2XxElkK5vsnEXL7ZciH2PX/xAAfEQEBAAECBwAAAAAAAAAAAAABAgAREgMEEyAhMUL/2gAIAQMBAT8A4l21tDOnUBk1qecgWtdvpzmKhgIDXJV+ez//2Q== 1x, data:image/jpeg;base64,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 2x"
+          width="41"
+          height="41"
+        />
 
         <div class="name-rating">
           <p class="maria-name">Alexander</p>
@@ -199,25 +255,40 @@
       </div>
 
       <picture class="business-old-hall">
-        <source srcset="/project-team-9/assets/about-complex4-desktop-27c77f08.jpg 1x, /project-team-9/assets/about-complex4-desktop@2x-4f5deb87.jpg 2x" media="(min-width: 1440px)" />
-        <source srcset="/project-team-9/assets/about-complex4-desktop-27c77f08.jpg 1x, /project-team-9/assets/about-complex4-desktop@2x-4f5deb87.jpg 2x" media="(min-width: 768px)" />
-        <source srcset="/project-team-9/assets/about-complex4-mobile-41688655.jpg 1x, /project-team-9/assets/about-complex4-mobile@2x-0ff56631.jpg 2x" media="(min-width: 375px)" />
-        <img src="/project-team-9/assets/about-complex4-mobile-41688655.jpg" alt="old style hall" width="335"
-          height="311" />
+        <source
+          srcset="/project-team-9/assets/about-complex4-desktop-27c77f08.jpg 1x, /project-team-9/assets/about-complex4-desktop@2x-4f5deb87.jpg 2x"
+          media="(min-width: 1440px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex4-desktop-27c77f08.jpg 1x, /project-team-9/assets/about-complex4-desktop@2x-4f5deb87.jpg 2x"
+          media="(min-width: 768px)"
+        />
+        <source
+          srcset="/project-team-9/assets/about-complex4-mobile-41688655.jpg 1x, /project-team-9/assets/about-complex4-mobile@2x-0ff56631.jpg 2x"
+          media="(min-width: 375px)"
+        />
+        <img
+          src="/project-team-9/assets/about-complex4-mobile-41688655.jpg"
+          alt="old style hall"
+          width="335"
+          height="311"
+          class="business-old-hall-img"
+        />
       </picture>
 
-      <div class="business-text">
+      <div class="business-advert">
         <h3 class="business-title">business class hotel</h3>
-        <p class="business-text">The Mimino hotel features spacious<br>
-          and stylish double luxury rooms<br>
-          with modern amenities for a<br>
-          comfortable stay.</p>
+        <p class="business-text">
+          The Mimino hotel features spacious<br />
+          and stylish double luxury rooms<br />
+          with modern amenities for a<br />
+          comfortable stay.
+        </p>
       </div>
-
     </div>
-
   </div>
 </section>
+
     <section class="rest-details">
   <div class="container">
 
