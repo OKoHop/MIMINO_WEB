@@ -27,6 +27,9 @@
   max-width: 335px;
   text-transform: uppercase;
 }
+.hero-hotel-text > span {
+  font-style: oblique;
+}
 
 .hero-hotel-cards {
   position: absolute;
@@ -51,12 +54,18 @@ img.hero-hotel-gallery-picture {
 .hero-hotel-click {
   display: flex;
   gap: 32px;
+
   justify-content: right;
 
   margin-right: 20px;
 }
 
 .hero-hotel-icon-btn {
+  width: 36px;
+  height: 36px;
+
+  cursor: pointer;
+
   display: inline-block;
   stroke: var(--brand-color);
   fill: transparent;

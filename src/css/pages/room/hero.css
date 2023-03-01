@@ -58,6 +58,10 @@ img.hero-room-gallery-picture {
 }
 
 .hero-room-icon-btn {
+  width: 36px;
+  width: 36px;
+  cursor: pointer;
+
   display: inline-block;
   stroke: var(--brand-color);
   fill: transparent;
