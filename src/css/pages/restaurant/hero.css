@@ -110,8 +110,8 @@ img.hero-rest-gallery-picture {
     margin-bottom: 204px;
   }
   .hero-rest-cards {
+    right: 0;
     top: 30px;
-    left: 737px;
     max-width: 703px;
   }
   .hero-rest-gallery {
