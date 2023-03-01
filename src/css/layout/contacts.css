@@ -124,11 +124,12 @@ box-shadow: -14px 24px 68px -16px rgba(0, 0, 0, 0.12);
    }
 
    .title-contacts{
+      margin-top: 50px;
    margin-right: 364px;
    }
    .map-wrap{
    position: absolute;   
-   top: 0;
+   top: 50px;
    left: 32px;
    }  
    .map-img{
