@@ -8,8 +8,11 @@
 }
 
 .header-main-page {
+  position: absolute;
+  top: 0;
+  left: 0;
   border-bottom: 0.5px solid rgba(247, 247, 247, 0.2);
-  background-color: #121212;
+  background-color: transparent;
 }
 
 .header .container {
