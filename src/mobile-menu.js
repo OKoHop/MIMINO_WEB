@@ -3,8 +3,10 @@
       openMenuBtn: document.querySelector("[data-menu-open]"),
       menu: document.querySelector("[data-menu]"),
       body: document.querySelector("body"),
-      icon_burger: document.querySelector("[hidden-icon-burger]"),
-      icon_cross: document.querySelector("[hidden-icon-cross]"),
+      icon_burger: document.querySelector('.hidden-icon-burger'),
+      icon_cross: document.querySelector('.hidden-icon-cross'),
+      // icon_burger: document.querySelector("[hidden-icon-burger]"),
+      // icon_cross: document.querySelector("[hidden-icon-cross]"),
     };
   
     refs.openMenuBtn.addEventListener("click", toggleMenu);
