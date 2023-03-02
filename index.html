@@ -1,29 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/project-team-9/favicon.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Mimino New</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/project-team-9/assets/apple-touch-icon-b167f533.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAMAAABEpIrGAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAACVVBMVEUAAAD/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr//Pz//Pz/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr//Pz////6+vzp6/Hz9Pf39/np6vD9/v7m6O/Z3Obf4erx8vb+/v7Gyto+S4Jocpzu7/T5+fuBia04RX6lq8X29/mNlLRrdJ5YY5JQW42EjK+4vdEcK2wbKmuXnru2us8kMnEVJGeQl7f4+fvo6e+qr8c5Rn5FUobV2OS5vdEfLW0YKGk2RH27wNJLV4oYJ2mRmLe/w9UlNHL5+vtFUYYmNHIuPHciMXBNWIscK2uRmbj9/f28wdP19vj4+fpcZ5UtO3bb3eeIkLJ0faQUJGdbZpShp8KSmbg/TIIfLm2aob2AiKweLGzBxdaiqMKzuM0aKWrt7vQ+SoEXJmjDx9iKkrO5vtK7wNOJkbOyt8zt7/Q9SoFKVomOlbW5vtHKzdwhMG92f6aTm7k7SIBEUIVsdp91fqVEUYbq7PHl5+6qsMjr7fJMWIvb3udQXI0gL247SH+Yn7uJkbLq6/FKV4r19vkyP3r09fiEjK4sOnZxeqLLz93u7/P7+/w4Rn5IVYihqMIgLm69wtRtdqBTXo5ga5hveaHAxNZfapf39/pEUYXIy9v8/P3t7vPg4uvi5Oz19fjy8/dh5zdKAAAANHRSTlMAABZovOv8/ey/bRkCRsL5+sZLAV/p7WZOF8HIHGn7c7vv9L53xcwfTPBTA03JzQQb8/QewDIeeAAAAAFiS0dENke/iNEAAAAHdElNRQfnAwIQDTClbd5QAAABqklEQVQ4y2NgYGBkZGJmYWUzQQHsHJxc3IyMDEDAyMPLx2+CBQgICvEAVTAKi4ia4ABi4kAVjLw45YEqJBgZJKVM8ABpGQZZfnwK5OQZFEzwAkEGRVO8QInBjACAKTC3sASSVtZWNrZ29g6OmAqcnF1czdzcPTy9vH18/fztMRQEBAYFm4WEhoWbRXhFRkXHxKIriItPSExKTklJBfPS0l0yMBRkZmXn5OblFxQGFJkVl5SWoSsILK+orKoOqnGtras3M2tobEJXkBdu21zW0lrT1t6R3WnWFdSNpqAnsBdI9rXW9E+Iz5toOyloMpqCKVOnAcmW1un9M2bOSpntH4hugrXznLlmZvPmly2YsXDR4iVL49EVmC2LX+4GolfMWLlqyuoUTAVr1q5bv2Hjmk0rNm+xNNu6LS8AXYFZxvYdO3ft3uOwd4eV2T73/QcwFJiZHTx0+MhRM4djQGax6yYsCrBHN8EEo4w/yUkzcAngk2dTYeBWxadATZ2BUYMDt7ymFjBn8YiL4ZTn0gZlTm0dXTms9utp6UOyN6OBvKAhurSRrooxKPsDAK+e+YTpQE/7AAAAJXRFWHRkYXRlOmNyZWF0ZQAyMDIzLTAzLTAyVDE2OjEzOjQ4KzAwOjAwseRyjQAAACV0RVh0ZGF0ZTptb2RpZnkAMjAyMy0wMy0wMlQxNjoxMzo0OCswMDowMMC5yjEAAABXelRYdFJhdyBwcm9maWxlIHR5cGUgaXB0YwAAeJzj8gwIcVYoKMpPy8xJ5VIAAyMLLmMLEyMTS5MUAxMgRIA0w2QDI7NUIMvY1MjEzMQcxAfLgEigSi4A6hcRdPJCNZUAAAAASUVORK5CYII="
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAABEVBMVEX/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+/v/+/v/+/v/+vr/+vr/+vr/+vr/+vr/+vr/+vr/+/v//Pz//f3////6+vzu7/P+/v74+Prv8PXx8vbg4urv8PTW2eRWYZHT1uKVnLp0faW0uc6Fja+5vdHP0uAyP3pRXY47SIBga5jj5e3m6O/Z3OZhbJjn6e/N0N5ibJmJkbKJkLJueKGRmLhOWozc3+hocp3S1eFlcJv4+frMz96OlrY2Q3xzfaTN0N9pc53Gytr09fji5OyQl7eKkrNqdJ4uPHfR1OGIkLGorsahp8Ksscnb3eddaJbW2eX29/ns7fP29vnx8fX6+/z//fz//Pvxv20RAAAAFHRSTlMAIprr/uydJLq+n+ru66LBJqDv8BXiaH4AAAABYktHRBibaYUeAAAAB3RJTUUH5wMCEA0uX2LjMwAAALRJREFUGNNVjtUSglAURY+IIgYWXK8tKnZhd3d3/f+H6HVgBtecl73mPCwAHaWn+R+0wcgA6Ey8BpYBitYK3gwWQUDoe8iDhC9WwBh7ff5AMBSOYAIRYjQWl8KJZEoV6Uw2ly8US3JZEZVqrd5ottqdtCK6vf5AGo7G8kQRkelsvliu1hv1A293e/FwPJ0vqsDXwm1+x48nETaSg16I1L1JmPGvnOeAYbXb7gBgnC51ujkHfADInx3SoJ4abQAAACV0RVh0ZGF0ZTpjcmVhdGUAMjAyMy0wMy0wMlQxNjoxMzo0NiswMDowMOHbCdAAAAAldEVYdGRhdGU6bW9kaWZ5ADIwMjMtMDMtMDJUMTY6MTM6NDYrMDA6MDCQhrFsAAAAV3pUWHRSYXcgcHJvZmlsZSB0eXBlIGlwdGMAAHic4/IMCHFWKCjKT8vMSeVSAAMjCy5jCxMjE0uTFAMTIESANMNkAyOzVCDL2NTIxMzEHMQHy4BIoEouAOoXEXTyQjWVAAAAAElFTkSuQmCC"
+    />
+    <link rel="manifest" href="data:application/manifest+json;base64,ewogICAgIm5hbWUiOiAiIiwKICAgICJzaG9ydF9uYW1lIjogIiIsCiAgICAiaWNvbnMiOiBbCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS0xOTJ4MTkyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICIxOTJ4MTkyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0sCiAgICAgICAgewogICAgICAgICAgICAic3JjIjogIi9hbmRyb2lkLWNocm9tZS01MTJ4NTEyLnBuZyIsCiAgICAgICAgICAgICJzaXplcyI6ICI1MTJ4NTEyIiwKICAgICAgICAgICAgInR5cGUiOiAiaW1hZ2UvcG5nIgogICAgICAgIH0KICAgIF0sCiAgICAidGhlbWVfY29sb3IiOiAiI2ZmZmZmZiIsCiAgICAiYmFja2dyb3VuZF9jb2xvciI6ICIjZmZmZmZmIiwKICAgICJkaXNwbGF5IjogInN0YW5kYWxvbmUiCn0K" />
+    <link
+      rel="mask-icon"
+      href="/project-team-9/assets/safari-pinned-tab-5fc42acf.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mimino New</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
     <!-- Animate -->
     <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
-  
-    
-  <script type="module" crossorigin src="/project-team-9/assets/mobile-menu-6c10fd2f.js"></script>
-  <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-e259588d.css">
-</head>
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
 
-<body class="main-active">
-  
-  <main>
-    <section class="hero">
+    
+    <script type="module" crossorigin src="/project-team-9/assets/mobile-menu-6c10fd2f.js"></script>
+    <link rel="stylesheet" href="/project-team-9/assets/mobile-menu-e259588d.css">
+  </head>
+
+  <body class="main-active">
+    <main>
+      <section class="hero">
   <div class="container hero-container">
     <div class="hero-block">
 
@@ -135,7 +164,7 @@
     </div>
   </div>
   </section>
-    <section class="about-complex">
+      <section class="about-complex">
     <div class="container">
     <h2 class="visually-hidden">About a complex</h2>
     <div class="complex">
@@ -296,7 +325,7 @@
   </div>
 </section>
 
-    <section class="rest-details">
+      <section class="rest-details">
   <div class="container">
     <div class="rest-letters">
       <h2 class="rest-title">restaurant</h2>
@@ -401,7 +430,7 @@
   </div>
 </section>
 
-    <section class=" welcome">
+      <section class=" welcome">
   <div class="container welcome-container">
     <div class="text-wrapper">
       <h2 class="title welcome-title">
@@ -434,7 +463,7 @@
   </div>
 </section>
 
-    <section class="details">
+      <section class="details">
   <div class="container details-container">
     <div class="details-text-wrap">
       <h2 class="title details-title">Hotel</h2>
@@ -564,7 +593,7 @@
   </div>
 </section>
 
-    <section class="section-contacts section">
+      <section class="section-contacts section">
   <div class="container container-contacts">
     <h2 class="title title-contacts">Location</h2>
     <div class="map-wrap">
@@ -604,9 +633,9 @@
     </div>
   </div>
 </section>
-  </main>
-  
-  <footer>
+    </main>
+
+    <footer>
     <section class="footer-section section">
         <div class="footer-wrap">
     <div class="footer-container container">
@@ -660,8 +689,8 @@
 </div>
 </section>
 </footer>
-  
-  <!-- Book a Room Modal window -->
+
+    <!-- Book a Room Modal window -->
       <div class="modal" data-modal="1">
     <button type="button" class="btn-close js-modal-close">
       <svg width="32px" height="32px">
@@ -871,9 +900,7 @@
 
 	<div class="overlay js-overlay-modal"></div>
 
-
-  
-  
-</body>
-
+    
+    
+  </body>
 </html>
