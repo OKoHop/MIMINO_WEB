@@ -25,7 +25,6 @@
 }
 
 .rest-pics-list {
-  margin: 0px;
   padding: 0px;
    display: flex; 
   justify-content: space-between;
@@ -80,6 +79,7 @@
 .rest-buttons {
   display: flex;
   gap: 20px;
+  justify-content: center;
   
 }
 
@@ -89,6 +89,10 @@
   .rest-letters {
     display: flex;
     gap: 32px;
+  }
+
+  .rest-pics-list {
+ margin-bottom: 30px;
   }
 
 .cocktail-glass, .expert-cooker {
@@ -102,6 +106,7 @@
 
  .rest-pics-arrows {
    width: 74px;
+   margin-bottom: 70px;
    }
 
 }
@@ -133,7 +138,13 @@ letter-spacing: -0.02em;
  .rest-pics-list {
   justify-content: start;
   gap: 32px;
- }
+  margin-bottom: 55px;
+   }
+
+ .rest-pics-arrows {
+  margin-bottom: 0;
+  margin-left: 650px;
+}
 
 .rest-details> .container {
   position: relative;
