@@ -76,7 +76,15 @@ img.hero-rest-gallery-picture {
 }
 
 .hero-rest-left-btn {
-  stroke: rgba(18, 18, 18, 0.3);
+  stroke: var(--arrow-color);
+}
+.hero-rest-left-btn:hover,
+.hero-rest-left-btn:focus {
+  stroke: var(--brand-color);
+}
+.hero-rest-right-btn:hover,
+.hero-rest-right-btn:focus {
+  stroke: var(--arrow-color);
 }
 
 @media screen and (min-width: 768px) {

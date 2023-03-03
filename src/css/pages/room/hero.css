@@ -72,7 +72,15 @@ img.hero-room-gallery-picture {
 }
 
 .hero-room-left-btn {
-  stroke: rgba(18, 18, 18, 0.3);
+  stroke: var(--arrow-color);
+}
+.hero-room-left-btn:hover,
+.hero-room-left-btn:focus {
+  stroke: var(--brand-color);
+}
+.hero-room-right-btn:hover,
+.hero-room-right-btn:focus {
+  stroke: var(--arrow-color);
 }
 
 @media screen and (min-width: 768px) {
