@@ -76,7 +76,15 @@ img.hero-hotel-gallery-picture {
 }
 
 .hero-hotel-left-btn {
-  stroke: rgba(18, 18, 18, 0.3);
+  stroke: var(--arrow-color);
+}
+.hero-hotel-left-btn:hover,
+.hero-hotel-left-btn:focus {
+  stroke: var(--brand-color);
+}
+.hero-hotel-right-btn:hover,
+.hero-hotel-right-btn:focus {
+  stroke: var(--arrow-color);
 }
 
 @media screen and (min-width: 768px) {
