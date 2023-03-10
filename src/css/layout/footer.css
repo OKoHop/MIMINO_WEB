@@ -62,12 +62,11 @@ color: #000000;
 .footer-link-social {
     fill: transparent;
     stroke: var(--brand-color);
-    transition:height 250ms cubic-bezier(0.4, 0, 0.2, 1),width 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition:fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-link-social:hover .footer-icon-social,
 .footer-link-social:focus .footer-icon-social{
-    height: 24px;
-    width: 24px;
+fill: #d9d3d3;
 }
 
 @media screen and (min-width: 768px){
@@ -91,15 +90,7 @@ width: 24px;
 height: 24px; 
 }
 
-.footer-link-social{
-    transition:height 250ms cubic-bezier(0.4, 0, 0.2, 1),width 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.footer-link-social:hover .footer-icon-social,
-.footer-link-social:focus .footer-icon-social{
-    height: 28px;
-    width: 28px;
-}
 }
 
 @media screen and (min-width: 1440px){
