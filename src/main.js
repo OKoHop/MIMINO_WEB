@@ -1,1 +1,3 @@
-import * as modal from './modal';
+import './modal';
+import './slick.min';
+import './slider-hero';
