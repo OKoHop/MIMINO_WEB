@@ -44,6 +44,10 @@
   margin-bottom: 24px;
 }
 
+.gallery {
+  transition: transform 0.5s ease-in-out;
+}
+
 img.hero-room-gallery-picture {
   max-width: 250px;
   height: 429px;
