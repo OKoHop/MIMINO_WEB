@@ -1,0 +1,1 @@
+const r=document.querySelector(".prev"),l=document.querySelector(".next"),t=document.querySelector(".gallery"),n=document.querySelector(".gallery-item").clientWidth;let e=0;l.addEventListener("click",()=>{e>=t.children.length-1||(e++,t.style.transform=`translateX(${-n*e}px)`)});r.addEventListener("click",()=>{e<=0||(e--,t.style.transform=`translateX(${-n*e}px)`)});
