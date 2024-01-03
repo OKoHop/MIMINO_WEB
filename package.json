@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/project-team-9/",
+    "build": "vite build --base=/MIMINO_WEB/",
     "preview": "vite preview"
   },
   "devDependencies": {
