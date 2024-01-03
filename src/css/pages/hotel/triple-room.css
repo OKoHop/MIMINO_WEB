@@ -1,196 +1,194 @@
-        .triple-hotel-room-photo {
-            margin-bottom: 32px;
-        }
+.triple-hotel-room-photo {
+  margin-bottom: 32px;
+}
 
-        .triple-room-gallery {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 19px;
-            justify-content: center;
-        }
+.triple-room-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  justify-content: center;
+}
 
-        .triple-room-gallery-main-photo {
-            width: 335px;
-        }
+.triple-room-gallery-main-photo {
+  width: 335px;
+}
 
-        .triple-room-gallery-photo-bathroom-desktop {
-            display: none;
-        }
+.triple-room-gallery-photo-bathroom-desktop {
+  display: none;
+}
 
-        .triple-room-gallery-photo-kitchen-desktop {
-            display: none;
-        }
+.triple-room-gallery-photo-kitchen-desktop {
+  display: none;
+}
 
-        .triple-two-photos-wrap {
-            display: flex;
-            gap: 19px;
-        }
+.triple-two-photos-wrap {
+  display: flex;
+  gap: 19px;
+}
 
-        .triple-room-gallery-photo-bathroom,
-        .triple-room-gallery-photo-kitchen {
-            width: 158px;
-        }
+.triple-room-gallery-photo-bathroom,
+.triple-room-gallery-photo-kitchen {
+  width: 158px;
+}
 
-        .triple-room-header-title {
-            font-size: 32px;
-            font-weight: 700;
-            line-height: calc(40 / 32);
-            text-align: left;
-            margin-bottom: 32px;
-            max-width: 246px;
-        }
+.triple-room-header-title {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: calc(40 / 32);
+  text-align: left;
+  margin-bottom: 32px;
+  max-width: 246px;
+}
 
-        .triple-room-description {
-            display: flex;
-            flex-direction: column;
-            gap: 19px;
-            margin-bottom: 32px;
-        }
+.triple-room-description {
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  margin-bottom: 32px;
+}
 
-        .triple-room-description-text {
-            text-transform: uppercase;
-            letter-spacing: -0.02em;
-            text-align: left;
-        }
+.triple-room-description-text {
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
 
-        .triple-hotel-room-btns {
-            display: flex;
-            gap: 10px;
-        }
+.triple-hotel-room-btns {
+  display: flex;
+  gap: 10px;
+}
 
-        @media screen and (min-width: 375px) {
-            .hotel-room-container {
-                margin-right: auto;
-                margin-left: auto;
-                width: 335px;
-            }
-        }
+@media screen and (min-width: 375px) {
+  .hotel-room-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 335px;
+  }
+}
 
-        @media screen and (min-width: 768px) {
-            .hotel-room-container {
-                margin-right: auto;
-                margin-left: auto;
-                width: 704px;
-            }
+@media screen and (min-width: 768px) {
+  .hotel-room-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 704px;
+  }
 
-            .triple-room-gallery {
-                flex-direction: row;
-                gap: 32px;
-            }
+  .triple-room-gallery {
+    flex-direction: row;
+    gap: 32px;
+  }
 
-            .triple-room-gallery-main-photo {
-                width: 331px;
-            }
+  .triple-room-gallery-main-photo {
+    width: 331px;
+  }
 
-            .triple-room-gallery-photo-bathroom {
-                width: 223px;
-            }
+  .triple-room-gallery-photo-bathroom {
+    width: 223px;
+  }
 
-            .triple-room-gallery-photo-kitchen {
-                width: 341px;
-            }
+  .triple-room-gallery-photo-kitchen {
+    width: 341px;
+  }
 
-            .triple-two-photos-wrap {
-                display: flex;
-                flex-direction: column;
-                gap: 32px;
-                align-items: flex-start;
-            }
+  .triple-two-photos-wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    align-items: flex-start;
+  }
 
-            .triple-room-header-title {
-                max-width: 100%;
-                font-size: 40px;
-                line-height: calc(44 / 40);
+  .triple-room-header-title {
+    max-width: 100%;
+    font-size: 40px;
+    line-height: calc(44 / 40);
+  }
 
-            }
+  .triple-room-description {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    margin-bottom: 32px;
+  }
 
-            .triple-room-description {
-                display: flex;
-                flex-direction: row;
-                gap: 32px;
-                margin-bottom: 32px;
-            }
+  .triple-room-description-text {
+    font-size: 18px;
+    line-height: calc(24 / 18);
+  }
 
-            .triple-room-description-text {
-                font-size: 18px;
-                line-height: calc(24 / 18);
-            }
+  .triple-room-description-text-one {
+    width: 369px;
+  }
 
-            .triple-room-description-text-one {
-                width: 369px;
-            }
+  .triple-room-description-text-two {
+    width: 299px;
+  }
 
-            .triple-room-description-text-two {
-                width: 299px;
-            }
+  .triple-hotel-room-btns {
+    gap: 14px;
+  }
+}
 
-            .triple-hotel-room-btns {
-                gap: 14px;
-            }
+@media screen and (min-width: 1440px) {
+  .hotel-room-container {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1408px;
+  }
 
-        }
+  .triple-hotel-room-photo {
+    margin-bottom: 50px;
+  }
 
-        @media screen and (min-width: 1440px) {
-            .hotel-room-container {
-                margin-right: auto;
-                margin-left: auto;
-                width: 1408px;
-            }
+  .hotel-room-btns {
+    gap: 14px;
+    justify-content: end;
+  }
 
-            .triple-hotel-room-photo {
-                margin-bottom: 50px;
-            }
+  .triple-two-photos-wrap {
+    display: none;
+  }
 
-            .hotel-room-btns {
-                gap: 14px;
-                justify-content: end;
-            }
+  .triple-room-gallery-photo-bathroom-desktop {
+    display: block;
+    width: 387px;
+    order: -1;
+  }
 
-            .triple-two-photos-wrap {
-                display: none;
-            }
+  .triple-room-gallery-photo-kitchen-desktop {
+    display: block;
+    width: 386px;
+  }
 
-            .triple-room-gallery-photo-bathroom-desktop {
-                display: block;
-                width: 387px;
-                order: -1;
-            }
+  .triple-room-gallery-main-photo {
+    width: 539px;
+  }
 
-            .triple-room-gallery-photo-kitchen-desktop {
-                display: block;
-                width: 386px;
-            }
+  .triple-room-gallery {
+    flex-direction: row-reverse;
+    gap: 32px;
+    align-items: center;
+  }
 
-            .triple-room-gallery-main-photo {
-                width: 539px;
-            }
+  .triple-room-header-title {
+    margin-bottom: 40px;
+    margin-left: 50%;
+  }
 
-            .triple-room-gallery {
-                flex-direction: row-reverse;
-                gap: 32px;
-                align-items: center;
-            }
+  .triple-room-description {
+    margin-left: 50%;
+  }
 
-            .triple-room-header-title {
-                margin-bottom: 40px;
-                margin-left: 50%;
-            }
+  .triple-room-description-text-one {
+    width: 355px;
+  }
 
-            .triple-room-description {
-                margin-left: 50%;
-            }
+  .triple-desktop-btn-alingment {
+    position: relative;
+  }
 
-            .triple-room-description-text-one {
-                width: 355px;
-            }
-
-            .triple-desktop-btn-alingment {
-                position: relative;
-            }
-
-            .triple-hotel-room-btns {
-                position: absolute;
-                top: 0;
-                left: 0;
-            }
-        }
+  .triple-hotel-room-btns {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}

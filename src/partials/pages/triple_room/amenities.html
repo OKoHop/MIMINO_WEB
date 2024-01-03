@@ -1,9 +1,13 @@
-<section class="section amenities">
-  <div class="container">
-    <ul class="list amenities-main-list">
+<section class="amenities section">
+  <div class="container amenities-container">
+    <h2 class="hidden-title visually-hidden">Hotel`s amenities</h2>
+
+    <ul class="amenities-main-list list">
       <li class="amenities-main-item">
-        <h3 class="amenities-title">General Amenities & Facilities:</h3>
-        <ul class="list">
+        <h3 class="amenities-title">
+          General Amenities <span>&#38;</span> Facilities:
+        </h3>
+        <ul class="amenities-list list">
           <li class="amenities-item">24-hour front desk service</li>
           <li class="amenities-item">Daily housekeeping</li>
           <li class="amenities-item">Free Wi-Fi throughout the hotel</li>
@@ -17,7 +21,7 @@
       </li>
       <li class="amenities-main-item">
         <h3 class="amenities-title">Bathroom:</h3>
-        <ul class="list">
+        <ul class="amenities-list list">
           <li class="amenities-item">Private bathroom with shower</li>
           <li class="amenities-item">Complimentary toiletries</li>
           <li class="amenities-item">Hair dryer</li>
@@ -29,7 +33,7 @@
       </li>
       <li class="amenities-main-item">
         <h3 class="amenities-title">Bedroom:</h3>
-        <ul class="list">
+        <ul class="amenities-list list">
           <li class="amenities-item">
             Comfortable beds with high-quality linens
           </li>
@@ -44,7 +48,7 @@
       </li>
       <li class="amenities-main-item">
         <h3 class="amenities-title">Kitchen:</h3>
-        <ul class="list">
+        <ul class="amenities-list list">
           <li class="amenities-item">
             In-room kitchenette (in some room categories)
           </li>
@@ -57,10 +61,10 @@
       </li>
       <li class="amenities-main-item">
         <h3 class="amenities-title">Media:</h3>
-        <ul class="list">
+        <ul class="amenities-list list">
           <li class="amenities-item">Flat-screen TV with cable channels</li>
           <li class="amenities-item">High-speed Wi-Fi</li>
-          <li class="amenities-item">iPhone docking station</li>
+          <li class="amenities-item">iPod docking station</li>
           <li class="amenities-item">Speaker system</li>
           <li class="amenities-item">
             Electrical outlets for charging devices.
@@ -68,8 +72,9 @@
         </ul>
       </li>
     </ul>
-    <div class="pic-amen-tr-room">
-      <picture>
+
+    <div class="picture-amenities-container">
+      <picture class="">
         <source
           srcset="
             /img/desktop/room-page/page-room1-desktop.jpg    1x,
@@ -89,10 +94,15 @@
             /img/mobile/room-page/page-room1.jpg    1x,
             /img/mobile/room-page/page-room1@2x.jpg 2x
           "
-          media="(min-width: 375px)"
+          media="(max-width: 767px)"
         />
-        <img src="/img/mobile/room-page/page-room1.jpg" alt="shower" />
+        <img
+          src="/img/mobile/room-page/page-room1.jpg"
+          alt="creams on the shell"
+          class="amenities-cream-picture"
+        />
       </picture>
+
       <picture>
         <source
           srcset="
@@ -113,17 +123,22 @@
             /img/mobile/room-page/page-room2.jpg    1x,
             /img/mobile/room-page/page-room2@2x.jpg 2x
           "
-          media="(min-width: 375px)"
+          media="(max-width: 767px)"
         />
-        <img src="/img/mobile/room-page/page-room2.jpg" alt="bathroom" />
+        <img
+          src="/img/mobile/room-page/page-room2.jpg"
+          alt="bathroom"
+          class="amenities-bath-picture"
+        />
       </picture>
+
+      <button
+        type="button"
+        class="button-amenities btn white js-open-modal"
+        data-modal="1"
+      >
+        book a room
+      </button>
     </div>
-    <button
-      type="button"
-      class="btn white button-amenities js-open-modal"
-      data-modal="1"
-    >
-      Book a room
-    </button>
   </div>
 </section>
