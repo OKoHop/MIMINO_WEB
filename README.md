@@ -37,7 +37,7 @@ restaurant menu, and also book a table for a wonderful dinner.
 
 - [**Julia**](https://github.com/Julia-Aird) - Frontend Developer
 
-- [**Anastasiia Pankovska **](https://github.com/anastasiiapankovska) - Frontend
+- [**Anastasiia Pankovska**](https://github.com/anastasiiapankovska) - Frontend
   Developer
 
 - [**Rocksolana Prociv**](https://github.com/fxxwol) - Frontend Developer
